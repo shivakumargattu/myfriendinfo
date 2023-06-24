@@ -48,6 +48,16 @@ background-color: #fff;
     margin: 4px;
 }
 conatct-card-brands{
-    display: flex;
-    flex-direction: row;
+    padding: 10px;
+    background-color: black;
+}
+
+.cards-brand-logos{
+   display: flex;
+   flex-direction:row;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   width: 560px;
+
 }
