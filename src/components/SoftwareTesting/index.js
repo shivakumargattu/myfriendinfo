@@ -30,7 +30,7 @@ const SoftwareTesting = () => {
 
       
 <div className='conatct-froms  shadow'>
-<h4 className='pt-3'><b>Enhancing Software Excellence: QA Testing
+<h4 className='p-5 pb-0'><b>Enhancing Software Excellence<br/> QA Testing
 </b></h4>
 <p>Let's Begin the Conversation - Get in Touch Today!</p>
 <form className="my-form">

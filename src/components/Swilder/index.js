@@ -55,7 +55,7 @@ const ImageSlider = () => {
   <img className='mt-4' src="https://img.webcodegenie.com/img/our-process/ui-ux.svg?ver=20230608134812" alt="alt"/>
   <div className="container pt-3">
     <h4><b>UX / UI Design</b></h4>
-    <p>					     
+    <p className='deceripon-slider'>					     
     Transforming your digital vision into a stunning reality with our expert UI/UX design - captivating visuals, seamless user experience.</p>
 </div>
   </div>
@@ -66,7 +66,7 @@ const ImageSlider = () => {
   <img className='mt-4' src="https://img.webcodegenie.com/img/our-process/prototype.svg?ver=20230608134812" alt="imge"/>
   <div className="container pt-3">
     <h4><b>Prototype</b></h4>
-<p>See your digital dream come to life with our dynamic prototype - experience your web or mobile app before it's built.
+<p className='deceripon-slider'>See your digital dream come to life with our dynamic prototype - experience your web or mobile app before it's built.
 </p>
   </div>
   </div>
@@ -78,7 +78,7 @@ const ImageSlider = () => {
   <img className='mt-4'  src="https://img.webcodegenie.com/img/our-process/prototype.svg?ver=20230608134812" alt="imge"/>
   <div className="container pt-3">
     <h4><b>Delpoyment</b></h4>
-<p>Launch your digital success story with confidence - our seamless deployment process delivers your web or mobile app to the world.</p>
+<p className='deceripon-slider'>Launch your digital success story with confidence - our seamless deployment process delivers your web or mobile app to the world.</p>
   </div>
   </div>
           </div>
@@ -103,7 +103,7 @@ const ImageSlider = () => {
   <img className='mt-4' src="https://img.webcodegenie.com/img/our-process/delpoyment.svg?ver=20230608134812" alt="imge"/>
   <div className="container pt-3">
     <h4><b>Development</b></h4>
-    <p>Transforming code into a digital masterpiece - our expert development team brings your web or mobile app to life.</p>
+    <p className='deceripon-slider'>Transforming code into a digital masterpiece - our expert development team brings your web or mobile app to life.</p>
   </div>
   </div>
           </div>

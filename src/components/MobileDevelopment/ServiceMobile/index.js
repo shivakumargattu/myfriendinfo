@@ -209,11 +209,11 @@ const FirstCard = ({ components, handleButtonClick }) => {
 
 const SecondCard = ({ activeComponent }) => {
   return (
-    <div className='second-card-service'>
-    <div className='  shadow'>
+    <div className='second-card-service shadow'>
+    
       
       {activeComponent}
-    </div>
+    
     </div>
   );
 };
