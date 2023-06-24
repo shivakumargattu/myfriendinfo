@@ -1,0 +1,90 @@
+
+  
+  .footer {
+    
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+    row-gap: 2rem;
+    column-gap: 2rem;
+    background: #04427d;
+    color: #fff;
+    position: relative;
+    z-index: 9;
+    padding: 10px;
+
+
+  }
+  .top-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+  }
+
+ .compynes-logos{
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   
+ }
+ 
+.middle-footer{
+
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.header-footer{
+  font-weight: 700;
+  color: #fff;
+  font-size: 20px;
+  padding-bottom:3px ;
+  text-decoration: underline 2px orange;
+}
+.footer-subHeading.hover{
+ color: orange;
+ cursor: pointer;
+}
+  
+.bottom-footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.bottom-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.active:hover{
+  color: orange;
+  cursor: pointer;
+
+}
+.box{
+  width: 50%;
+}
+.footer-service{
+  display: flex;
+  flex-direction: row;
+  gap:10px;
+}
+.logo-imge{
+  height: 4rem;
+  width: 13rem;
+  margin: 5px;
+  object-fit: fit;
+}
+.bottom-footer-copyriht{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.link-footers{
+  color: white;
+  text-decoration: none;
+}

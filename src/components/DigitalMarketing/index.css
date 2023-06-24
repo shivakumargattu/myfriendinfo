@@ -1,0 +1,12 @@
+*{
+    font-family: 'Rubik', sans-serif;
+
+}
+.digital-second-card{
+    display: flex;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,33 @@
+*{
+    font-family: 'Rubik', sans-serif;
+
+}
+.about-cards{
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.about{
+    margin-top: 100px;
+}
+
+.imge-about{
+    
+    width:80% ;
+}
+.about-middel{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.about-us-descrip{
+    text-align: left;
+    margin-left: 10px;
+    font-size: large;
+}

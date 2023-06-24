@@ -1,0 +1,99 @@
+*{
+  font-family: 'Rubik', sans-serif;
+}
+.bg-carosuel{
+  margin-top: 82px;
+  padding: 10px;
+  background-color:  #e6ecfa;
+border-radius: 90px;
+font-family: "Rubik, sans-serif" ;
+}
+.carosel-mai-heading{
+  color: orange;
+  font-weight: 900;
+  max-width: 600px;
+  
+    margin-left: 20px;
+}
+.carosel-sub-head{
+  color: #007bff;
+  font-weight: 900;
+  max-width: 500px;
+  
+    text-align: left;
+    margin-left: 20px;
+}
+.slick-slide img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .slick-dots li button:before {
+    color: #fff;
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #ff0000;
+  }
+  
+  .background-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+     padding: 10px;
+  display: flex;
+  flex-direction: row;
+  }
+  .carousel-content{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: ( #d2dbf8,#fff, #dcf1dc, #9fdded);
+    margin: auto;
+    
+  }
+  
+  .carosel-description{
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+    font-family: "roboto";
+    max-width: 600px;
+    text-align: left;
+    margin-left: 20px;
+    
+  }
+  .imge-hight{
+    width: 50%;
+    height: 610px;
+  }
+  .imge-hight2{
+    width: 38%;
+    height: 540px;
+    border-radius: 50px;
+  }
+  .carosel-conatiner-text{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family:"Rubik, sans-serif" ;
+    max-width: 600px;
+    text-align: left;
+    padding-left:10px;
+    margin: 10px;
+    order: 2;
+    
+
+  }
+  .digital-market{
+    width: 420px;
+    height: 550px;
+    padding-top: 60px;
+    padding-bottom:60px ;
+  }
+  .imges-oreder{
+    order: 1;
+  }

@@ -1,0 +1,137 @@
+.conatactus{
+  background-color: #f0f5fe;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.conatct-details-card{
+  
+    
+    width: 100%;
+    height: 100%; 
+    background-color: #033584;
+    border-radius: 20px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.contact-info{
+    color: #fff;
+    text-align: center;
+}
+
+.form-container {
+    height: 500px;
+    width:100%;
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+  .input-flids{
+    height: 50px;
+    width: 78%;
+    margin: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: hwb(210 96% 3%);
+  }
+  .my-form {
+    width:100%;
+    padding: 2px;
+    
+    border-radius: 5px;
+  }
+  
+  .my-form .file-name {
+    margin-top: 5px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    background-color: #edebeb02;
+  }
+  
+  
+  .my-form textarea {
+    width: 78%;
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+margin: 5px; }
+  
+  
+  .my-form button {
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #033584;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  
+  
+  .my-form label.file-label {
+    display: inline-block;
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+  
+  .my-form label.file-label:hover {
+    background-color: #45a049;
+  }
+  
+  .my-form label.file-label::before {
+    content: "Choose File";
+  }
+  
+  .my-form label.file-label span {
+    margin-left: 8px;
+  }
+  
+  .my-form .file-name {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  .conatct-froms{
+    background-color: #fff;
+  border-radius: 5px;
+  }
+
+ /* .conatct-froms-top-card{
+    background-color: #f0f5fe;
+    margin-bottom:10px ;
+    margin-left: 30px;
+    
+  } */
+  @media screen and (min-width:576px) {
+    .hiden-card{
+      display: none;
+    }
+  }
+  
+  @media screen and (max-width:576px) {
+    .hiden-card{
+      display: block;
+    }
+  }
+  

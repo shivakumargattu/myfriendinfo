@@ -1,0 +1,70 @@
+.angular-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 70px;
+
+
+}
+
+.contaier-imge-tech{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+    margin-left: 0px;
+    padding-top: 70px;
+}
+
+.tech-main-heading{
+ 
+    width: 500px;
+    text-align: left;
+
+}
+
+.second-tech-container{
+
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 35px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.sub-heading-tech{
+    color: #052240;
+    font-weight: bold;
+}
+
+.Angular-cards-conatiner{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 8px;
+}
+
+.card-tech-content{
+    height: 340px;
+    width: 250px;
+    border-radius: 4px;
+    border-color: rgb(192, 190, 190);
+    border-style: solid;
+    border-width: 1px;
+    padding: 3px;
+    background-color: #fff;
+    margin: 10px;
+}
+
+.img-top-card{
+width: 100%;
+}
+.sub-card-description{
+    padding-left: 8px;
+    padding-right: 8px;
+    text-align: left;
+}

@@ -1,0 +1,71 @@
+.clent-bg-contener{
+    background-color:#faf8f7;
+       
+    width: 100%;
+    object-fit: cover;
+    padding: 10px;
+    text-align: center;
+    font-family: "roboto";
+}
+.text{
+        font-family: 'Rubik', sans-serif;    
+    font-weight: 600;
+    text-align: center;
+    
+
+}
+.small-heading{
+    padding-top: 10px;
+    color: #006bc0;
+    font-family: 'Rubik', sans-serif;
+
+}
+.card-slied {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: 250px;
+    width: 300px;
+    margin:20px ;
+    background-color: #fff;
+  }
+  
+
+  /* On mouse-over, add a deeper shadow */
+  .card-slied:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding-left: 10px;
+    text-align: left;
+  }
+  .client-card-cantener{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .logo-cantainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+   
+  .logo-imges{
+    width: 80%;
+    background-size: cover;
+  }
+  .logo-cantainer{
+   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); */
+    transition: 0.3s;
+    height: 200px;
+    width: 200px;
+    margin:2px ;
+    background-color: #fff;
+ 
+  }

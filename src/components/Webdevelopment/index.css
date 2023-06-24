@@ -1,0 +1,178 @@
+.webdevelopment-top-card{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 60px;
+    flex-wrap: wrap;
+
+    
+
+}
+.imge-card-top{
+  height: 340px;
+  width: 300px;
+  background-size: cover;
+  margin: 30px;
+}
+
+.web-from{
+width: 50%;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+
+}
+.form-container {
+    height: 500px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+  }
+  .inside-from-input-flids{
+    height: 40px;
+    width: 78%;
+    margin: px;
+    
+    border-width: 1px;
+  }
+  .inside-my-form {
+    height: 90%;
+    width:80%;
+    padding: 2px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    box-shadow: #f1f1f1;
+  }
+  
+  .my-form .file-name {
+    margin-top: 5px;
+    font-size: 14px;
+  }
+  
+  
+  .inside-my-form textarea {
+    width: 78%;
+    height: 26%;
+  padding: 15px;
+  margin-top: 5px;
+  border-radius: 3px;
+  border: 1px solid #ccc;
+margin: 5px; }
+  
+  
+  .my-form button {
+    width: 40%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #033584;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    
+  }
+  .web-second-card{
+    display: flex;
+    flex-direction: row;
+    
+    flex-wrap: wrap;
+    background-color: #eee6e64a;
+  }
+  
+  .content-web{
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  width: 500px;
+
+  }
+  .service-include{
+    background-color: #fffafa;
+    padding: 5px;
+    box-shadow: #f1f1f1;
+  }
+  .element-card{
+    background-color: #fff;
+    padding: 4px;
+  }
+  element-description{
+
+    background-color: #fff;
+    padding: 4px;
+  }
+  .technoligies-card-cantener{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-conatener{
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin: 8px;
+    font-size: small;
+  }
+
+  .imge-icons{
+    height: 130px;
+    width: 130px;
+  }
+  .img-conatener:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
+    .industries-card-cantener {
+      width: 100%;
+    
+      height: 300px;
+      
+      padding-top: 10x;
+      overflow: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      flex-wrap: nowrap;
+  }
+  
+
+@keyframes marquee {
+  0% {
+      transform: translateX(100%);
+  }
+
+  100% {
+      transform: translateX(-100%);
+  }
+
+}
+
+.marquee-content {
+  width: 100%;
+  white-space: nowrap;
+  animation: marquee 10s linear ;
+}
+.secondd-card-imge {
+  display: flex;
+  flex-direction: row;
+  justify-content:center ;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,367 @@
+*{
+    font-family: 'Rubik', sans-serif;
+  }
+.nav-container{
+    height: 80px;
+    width: 100%;
+
+    background-color:#FFF;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    top: 0px;
+    position: fixed;
+    z-index:999;
+}
+.nav-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none; 
+    flex: 4;
+    position: relative;
+
+}
+.list{
+    padding-right: 30px;
+    font-size:18px;
+    font-weight: 600;
+}
+.main-header.fixed-header {
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 3px 53px #eff4ffe6;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: rgba(255,255,255,0.95);
+    scroll-behavior: smooth;
+   font-family:"Roboto";    
+}
+.logo-imge-nav{
+    height: 50px;
+    width: 178px;
+    
+
+}
+.logo-nav-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.contact{
+    margin-right:8px ;
+}
+.nav-link{
+    color: black;
+    text-decoration: none;
+}
+.nav-items:li{
+    background-color: yellow;
+  }
+    .get-in-btn{
+        height: 40px;
+        width: 180px;
+        color: #fff;
+       
+        border-radius: 5px;
+        border-width: 0px;
+    }
+    .getin-btn{
+        margin-top: 10px ;
+        
+        margin-right: 15px;
+        font-size: 1rem
+        
+
+    }
+    .nobg-btn {
+        border-radius: 10px;
+    
+        color:#fff;
+        font-weight: 600;
+    height: 49px;
+    background-color:#0d47a1	;        
+    
+    }
+    
+    .nobg-btn:hover {
+        background-color: #ff8727;
+        color: #fff;
+        border-color: #ff8727
+    }
+    .sub-menu{
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .icon{
+        color: #ff8727;
+        height: 2rem;
+        width: 5rem;
+    }
+    .sub-heading-service{
+        font-size: 20px;
+        font-weight: bold;
+        font-family: 'Rubik', sans-serif;
+        text-align: left;
+        margin-left: 10px
+        
+    }
+    .sub-item-description-service{
+      font-size: 15px;
+      font-family: "";
+      font-weight: 400;
+      text-align: left;
+      margin-left: 10px;
+      color: black;
+      font-family: 'Rubik', sans-serif;
+  
+    
+    
+    }
+    .service-card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+padding: 10px;
+display: flex;
+justify-content: space-around;
+z-index: 999;
+margin-top: 0px;
+position: absolute;
+top:0%;
+left: 0;
+right: 0;
+background-color: #fff;
+margin-top:50px;
+font-family: 'Rubik', sans-serif;
+  
+
+}
+
+    .section {
+        margin-top: 50px;
+      }
+      .content-container {
+        position: relative;
+        margin: 50px;
+        font-family: 'Rubik', sans-serif;
+
+
+
+      }
+      
+      .card-overlay {
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: rgba(0, 0, 0, 0.8);
+        color: #fff;
+        padding: 20px;
+        border-radius: 4px;
+        width: 300px;
+        font-family: 'Rubik', sans-serif;
+
+      }
+      
+.technologies-cards{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px; /* 5px rounded corners */
+padding: 10px;
+z-index: 9999;
+margin-top: 0px;
+position: absolute;
+top:0%;
+left: 0;
+right: 0;
+background-color: #fff;
+margin-top:50px;
+font-family: 'Rubik', sans-serif;
+
+}
+.tech-sub-heading{
+    font-size: 20px;
+        font-weight: bold;
+        font-family: "Roboto";
+        text-align: left;
+        margin-left: 10px;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+
+       }
+.tech-sub-description{
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 550;
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.technologie-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+
+
+
+}
+
+.hire-developer-card{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 9999;
+margin-top: 0px;
+position: absolute;
+top:0%;
+left: 0;
+right: 0;
+background-color: #fff;
+font-family: 'Rubik', sans-serif;
+
+}
+.hire-text{
+    margin-top: 2px;
+    font-size: 1.08rem;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.resources-card{
+
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px rounded corners */
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+
+  z-index: 9999;
+position: absolute;
+top:0%;
+left: 0;
+right: 0;
+background-color: #fff;
+margin-top:50px;
+
+font-family: 'Rubik', sans-serif;
+
+}
+.resourse-sub-heading{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Roboto";
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+
+   }
+.resourse-description{
+    font-size: 15px;
+    font-family: "roboto";
+    font-weight: 550;
+    text-align: left;
+    margin-left: 10px;
+    color: black;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.active-sub-heading:hover{
+
+    text-decoration: underline;
+    text-decoration-color: #ff8727;
+    
+    
+    border-bottom:1px solidr,orange(0, 0, 0);
+    margin-bottom:5px;
+}
+    
+.blog-text-heading{
+    color: black;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Rubik', sans-serif;
+
+}
+.text-decoret{
+    text-decoration-line: none;
+}
+.Mobile-devices{
+    display: none;
+}
+.samll-dives-menu{
+    background-color: #fff;
+    text-align: left;
+
+}
+
+
+
+@media screen and (max-width:768px){
+
+    .large-divice-nav{
+        display: none; 
+    }
+    .samll-divices{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        margin: 10px;
+        font-family: 'Rubik', sans-serif;
+    }
+    .mobile-menu-icon{
+        background-color: transparent;
+        border-width: 0px;
+
+
+    }
+    .menu-card-items{
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+    .small-sub-icon{
+        display: flex;
+        justify-content: space-between;
+    }
+    .submenu-service-card{
+        font-size: small;
+        color: black;
+    }
+    .nav-link-subMenu-Items{
+        text-decoration: none;
+        color: black;
+        font-family: 'Rubik', sans-serif;
+    }
+}
+@media  screen and (min-width:768px) {
+    .samll-divices{
+        display: none;
+        
+        
+    }
+
+}

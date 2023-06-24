@@ -1,0 +1,104 @@
+.swiper-container {
+    width: 30%;
+    height: 40%;
+    
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    overflow: hidden;
+    
+  }
+  
+  .swiper-pagination {
+    position: absolute;
+    bottom: 10px;
+    left: 0%;
+    transform: translateX(-30%);
+  }
+  .swip-card{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    height:300px;
+    width: 40px;
+    background-color: orange;
+  }
+  .process-card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(238, 239, 242, 0.578);
+    color: #fff;
+    transition: 0.3s;
+    height: 300px;
+    width: 350px;
+    min-width: 100px;
+    margin:0px ;
+    background-color:navy;
+    border-radius: 8px;
+    padding: 10px;
+
+  }
+
+  .process-card:hover{
+    background-color:rgb(240, 182, 75);
+    cursor: pointer;
+  }
+
+  /* On mouse-over, add a deeper shadow */
+  .ourservice-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+    background-color: #fff;
+  }
+
+  .swiper-container-small{
+    display: none;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 15px;
+    text-align: left;
+  }
+  .client-card-cantener{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .scrolling-wrapper {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+  }
+  .btn-left{
+
+    background-color:white;
+    color: white;
+    padding: 10px;
+    border-width: 0px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+
+  }
+  
+  .deceripon-slider{
+    max-width: 700px;
+  
+    font-size: medium;
+    padding-bottom: 10px;
+  }
+  @media screen and (max-width:557px) {
+    .process-card {
+      overflow-y: scroll;
+      width: 700px;
+
+    }
+  }

@@ -1,0 +1,53 @@
+
+.bg-conatiner-cantactus{
+    background-color: #f0f5fe;
+    padding-top: 100px;
+}
+.bg-color{
+    background-color: #f0f5fe;
+  padding-bottom: 10px;
+}
+
+.conatct-deyacls-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.conatct-cards{
+    width: 650px;
+    display: flex;
+    flex-direction: row;
+ justify-content: center;
+    flex-wrap: wrap;
+    padding:10px;
+    background-color: #f0f5fe;
+}
+.logo-cantainer-conat{
+    height: 180px;
+    width: 180px;
+    background-color:white;
+}
+.cards-fomms {
+width: 450px;
+height: 600px;
+background-color: #fff;
+}
+.text-area{
+    height: 100px;
+    width: 80%;
+}
+.logo-cantainer-logo{
+    height: 160px;
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4px;
+}
+conatct-card-brands{
+    display: flex;
+    flex-direction: row;
+}

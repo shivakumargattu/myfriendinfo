@@ -1,0 +1,44 @@
+.constamized-components{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    text-align: left;
+    height: 500px;
+    background-color: rgb(251, 254, 253);
+    font-family: 'Rubik', sans-serif;
+
+}
+.second-card-cainter{
+    width: 100%;
+    font-family: 'Rubik', sans-serif;
+
+}
+.service-incled-description{
+text-align: left;
+font-size: 18px;
+margin-left: 15px;
+}
+.technologie-used{
+    height: 100px;
+    width: 100px;
+    background-color: #fff;
+    padding: 5px;
+    margin: 6px;
+    font-family: 'Rubik', sans-serif;
+
+}
+.technologie-used:hover{
+  border-radius: 5px;
+  border-color: rgb(86, 86, 254);
+  border-style: solid;
+  cursor: pointer;
+
+}
+.used-tech-card-cantainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik', sans-serif;
+
+}
