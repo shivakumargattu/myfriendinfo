@@ -25,6 +25,7 @@ import Angular from "./components/TechnologiesComponents/Frontend/Angular";
 import ReactJsComponent from "./components/TechnologiesComponents/Frontend/ReactjsComponet";
 import BackboneJs from "./components/TechnologiesComponents/Frontend/BackboneJs";
 import JavaScript from "./components/TechnologiesComponents/Frontend/JavaScript";
+import VartualReality from "./components/Protfolio/ProtfolioDetailedComponents/VertualReality";
 
 
 
@@ -66,6 +67,7 @@ function App() {
         <Route path="/aboutus" element={<AboutUsRouter/> }/>
         <Route path="/contactus" element={<ConatctUsRouter/> }/>
         <Route path="/career" element={<Careeres/> }/>
+        <Route path="/vertualreality" element={<VartualReality/>}/>
         
           
         

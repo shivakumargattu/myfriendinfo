@@ -1,5 +1,6 @@
 import React from 'react'
 import "./index.css"
+import { Link } from 'react-router-dom'
 
 const Protfolio = () => {
   return (
@@ -10,14 +11,17 @@ const Protfolio = () => {
     <div className=' client-card-cantener'>
    
 
-  <div class="">
-  <img className='protfolio-card' src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-2.jpg" alt="imge"/>
+ <Link to="/vertualreality"> <div class="">
+  
+<a href='/vertualreality' > <img className='protfolio-card' src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-2.jpg" alt="imge"/></a>
  
   </div>
+  </Link>
   <div class="">
-  <img className='protfolio-card' src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-1.jpg" alt="alt"/>
- 
+  <Link to="/vertualreality"> <img className='protfolio-card' src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-1.jpg" alt="alt"/>
+ </Link>
   </div>
+  
   <div >
   <img className='protfolio-card' src="https://img.webcodegenie.com/img/protfolio/safarivet.webp?ver=20230608134812" alt="imge"/>
   
