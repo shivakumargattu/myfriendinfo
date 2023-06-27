@@ -5,8 +5,8 @@
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 10px;
-  margin-bottom: 10px;
+  padding-bottom: 5px;
+  padding: 10px;
   
 }
 
@@ -14,7 +14,7 @@
   
     
     width: 100%;
-    height: 100%; 
+    height: 90%; 
     background-color: #033584;
     border-radius: 20px;
   
@@ -32,13 +32,14 @@
 }
 
 .form-container {
-    height: 500px;
+    height: 600px;
     width:100%;
     display: flex;
     justify-content: row;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 20px;
    
   }
   .input-flids{
@@ -85,6 +86,14 @@ margin: 5px; }
     cursor: pointer;
     
   }
+  .arow-imge{
+    height: 15px;
+    width: 15px;
+  }
+  .space-conat-info-itcons{
+    padding-left:18px ;
+    padding-top: 13px;
+  }
   
   
   .my-form label.file-label {
@@ -118,6 +127,14 @@ margin: 5px; }
   border-radius: 5px;
   }
 
+  .conatct-detali-items-container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0px;
+  }
  /* .conatct-froms-top-card{
     background-color: #f0f5fe;
     margin-bottom:10px ;

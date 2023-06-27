@@ -25,28 +25,51 @@ const ContactUs = () => {
           <h1 className='text'>Consult With Our Experts Today!</h1>
           </div>
           
-        <div className="form-container ">
+        <div className="form-container">
            
              <div >
-             <div className='conatct-details-card'>
-                 <div className="contact-info ">
-               <h3 className=' p-5 pb-3 pt-0'><b>Your Benefits!</b></h3>
-                 <p>  <FaAngleDoubleRight className='icon'/> &nbsp; Professional Project Consultation</p>
-              <p>   <FaAngleDoubleRight className='icon'/> &nbsp;    Detailed Project Proposal</p>
-                 <h3 className=' p-5 pb-2 pt-2'><b>Sales & Marketing</b></h3>
-                 <p>
-                 <FaMapMarkerAlt className='icon' /> &nbsp; Address: Visakhapatnam, Andhra Pradesh.
-                 </p>
-                 <p>
-              <FaPhoneAlt  className='icon'/> &nbsp; Phone:+91 - 6281 786 602.
-            </p>
+             <div className='conatct-details-card '>
+                 <div className="contact-info pt-1 pb-0 p-5">
+               <h5 className=""><b>Your Benefits!</b></h5>
+               <div className='conatct-detali-items-container pt-0'>
+                <img className='arow-imge' src="https://img.webcodegenie.com/img/footer/right-arrow.svg" alt="arow"/>
+                <p className='space-conat-info-itcons'>Professional Project Consultation</p>
+               </div>
+               <div className='conatct-detali-items-container pt-0'>  
+               <img className='arow-imge' src="https://img.webcodegenie.com/img/footer/right-arrow.svg" alt="arow"/>
             
-            <p>
-              <FaEnvelope  className='icon'/> &nbsp; Email: contact@myfriend.net.in
-            </p>
-            <p>
-              <FaGlobe  className='icon'/> &nbsp; Website: info@myfriend.net.in
-            </p>
+              <p className="space-conat-info-itcons"> Detailed Project Proposal</p>
+              </div>
+
+                 <h5 className=''><b>Sales & Marketing</b></h5>
+                 <div className='conatct-detali-items-container pt-0'>  
+                 <img className='arow-imge-bottom' size="40" src=" https://img.webcodegenie.com/img/footer/get-in-touch-mail.svg?ver=20230620061009" alt="emali"/>
+                 <p className='space-conat-info-itcons'>
+                  Sales@myfriendinfo.com
+                 </p>
+                 </div>
+
+                 <div className='conatct-detali-items-container pt-0'>  
+                 <img className='arow-imge-bottom' src=" https://img.webcodegenie.com/img/footer/get-in-touch-call.svg?ver=20230620061009" alt="emali"/>
+                 <p className='space-conat-info-itcons'>
+                 +91 - 6281 786 602
+                 </p>
+                 </div>
+                
+                 <div className='conatct-detali-items-container pt-0'>  
+                 <img className='arow-imge-bottom' src=" https://img.webcodegenie.com/img/footer/get-in-touch-mail.svg?ver=20230620061009" alt="emali"/>
+                 <p className='space-conat-info-itcons'>
+                 contact@myfriend.net.in
+                 </p>
+                 </div>
+              
+                 <div className='conatct-detali-items-container pt-0'>  
+                 <img className='arow-imge-bottom' src=" https://img.webcodegenie.com/img/footer/sky.svg?ver=20230620061009" alt="emali"/>
+                 <p className='space-conat-info-itcons'>
+                  info@myfriend.net.in
+                 </p>
+                 </div>
+              
                  </div>
              </div>
            </div>
