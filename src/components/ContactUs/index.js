@@ -5,6 +5,7 @@ import {
   FaPhoneAlt,
   FaEnvelope,
   FaGlobe,
+  FaAngleDoubleRight
 } from "react-icons/fa";
 
 
@@ -28,11 +29,11 @@ const ContactUs = () => {
            
              <div >
              <div className='conatct-details-card'>
-                 <div className="contact-info box3">
-               <h3><b>Your Benefits!</b></h3>
-                  <p>Professional Project Consultation</p>
-                  <p>Detailed Project Proposal</p>
-                 <h3><b>Sales & Marketing</b></h3>
+                 <div className="contact-info ">
+               <h3 className=' p-5 pb-3 pt-0'><b>Your Benefits!</b></h3>
+                 <p>  <FaAngleDoubleRight className='icon'/> &nbsp; Professional Project Consultation</p>
+              <p>   <FaAngleDoubleRight className='icon'/> &nbsp;    Detailed Project Proposal</p>
+                 <h3 className=' p-5 pb-2 pt-2'><b>Sales & Marketing</b></h3>
                  <p>
                  <FaMapMarkerAlt className='icon' /> &nbsp; Address: Visakhapatnam, Andhra Pradesh.
                  </p>
