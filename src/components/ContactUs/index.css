@@ -6,7 +6,7 @@
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 5px;
-  padding: 10px;
+  padding: 80px;
   
 }
 
@@ -43,9 +43,9 @@
    
   }
   .input-flids{
-    height: 50px;
-    width: 78%;
-    margin: 20px;
+    height: 46px;
+    width: 90%;
+    margin: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
     background-color: hwb(210 96% 3%);
@@ -66,7 +66,8 @@
   
   
   .my-form textarea {
-    width: 78%;
+    width: 90%;
+    height: 100px;
   padding: 15px;
   margin-top: 5px;
   border-radius: 3px;
@@ -125,6 +126,8 @@ margin: 5px; }
   .conatct-froms{
     background-color: #fff;
   border-radius: 5px;
+  padding: 10px;
+  width: 350px;
   }
 
   .conatct-detali-items-container{
@@ -141,6 +144,22 @@ margin: 5px; }
     margin-left: 30px;
     
   } */
+
+  .input-flids-label{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+
+    height: 46px;
+    
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    color: #a3a3a3;
+    background-color: hwb(210 96% 3%);
+  }
   @media screen and (min-width:576px) {
     .hiden-card{
       display: none;
