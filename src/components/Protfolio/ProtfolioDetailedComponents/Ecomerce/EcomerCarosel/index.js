@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import "./index.css"
 
-function CoinViewCarosuel() {
+
+function EcomersCarosuel() {
   const [index, setIndex] = useState(0);
 
   const handleSelect = (selectedIndex) => {
@@ -14,21 +14,20 @@ function CoinViewCarosuel() {
       <Carousel.Item>
       <div className='d-flex'>
         <img
-          className="imges-coin"
-          src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-4.jpg"
+          className="d-block w-40"
+          src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-s2.png"
           alt="First slide"
         />
 
-        <img alt="secom" className="imges-coin"
-                  src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-3.jpg"/>
+        <img alt="secom" src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-s1.png"/>
         </div>
       </Carousel.Item>
       <Carousel.Item>
       <div className='d-flex'>
       <img alt="secom" src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-s1.png"/>
         <img
-          className="imges-coin"
-          src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-12.jpg"
+          className="d-block w-40"
+          src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-s2.png"
           alt="First slide"
         />
 
@@ -41,4 +40,4 @@ function CoinViewCarosuel() {
   );
 }
 
-export default CoinViewCarosuel;
+export default EcomersCarosuel;

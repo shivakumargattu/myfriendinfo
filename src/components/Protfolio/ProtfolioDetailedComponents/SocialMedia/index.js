@@ -1,14 +1,15 @@
 import React from 'react'
 import "./index.css"
-import VertualCarosuel from './VertualCarosel'
+import VertualCarosuel from '../VertualReality/VertualCarosel'
 
-const VartualReality = () => {
+
+const SocialMedia = () => {
   return (
   <>
        <div className='m-4'>
             
               <div className='vertual-reactlty-top-cantiner'>
-                <img className='virtual-imge' alt="mige" src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-1.jpg"/>
+                <img className='virtual-imge' alt='imge' src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-7.jpg"/>
                 <div className='vitual-container'>
                 <h1><b>How it Works</b></h1>
                     <p>Mobile apps have already penetrated every sphere of our lives and every imaginable business niche. Naturally, the appeal of mobile apps for its market potential cannot fade away anytime soon, at least until another great technology can replace mobile apps. development company and its business clients. . So, what about the failure of other apps? What are the key factors responsible for the failure of millions of apps? Well, apart from the ill-conceived app idea and development and design flaws many apps simply fail because of their pre-launch and post-launch shortcomings. Front-end development essentially focuses and works on the visual perceptions of a website. It’s about the look, load time, pattern and functionality of the components of a website. Front-End is a mix of programming and layout that powers the visuals and interactions on the web. The talented Front-end developers provide turnkey Front-End development services whether you are planning to change the Front-End from older technology to newer one, for example Angular.</p>
@@ -35,10 +36,10 @@ const VartualReality = () => {
                    <div className="flip-card">
                    <div className="flip-card-inner">
                   <div className="flip-card-front">
-                  <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-8.jpg" className='w-100 h-100' alt="Avatar" />
+                  <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-4.jpg" className='w-100 h-100' alt="Avatar" />
                  </div>
                    <div className="flip-card-back">
-                   <h1>Basic Project</h1>
+                   <h1>eCommerce Website</h1>
                    <p>Design / Development</p>
                
                   </div>
@@ -48,10 +49,10 @@ const VartualReality = () => {
                    <div className="flip-card">
                    <div className="flip-card-inner">
                   <div className="flip-card-front">
-                  <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-9.jpg" className='w-100 h-100' alt="Avatar" />
+                  <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-3.jpg" className='w-100 h-100' alt="Avatar" />
                  </div>
                    <div className="flip-card-back">
-                   <h1>Your New Reality</h1>
+                   <h1>Analysis of Security</h1>
                    <p>Technology / Development</p>
                
                   </div>
@@ -63,13 +64,12 @@ const VartualReality = () => {
                   <div className="flip-card-front">
                   <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-6.jpg" className='w-100 h-100' alt="Avatar" />
                  </div>
-               <a href='/portfolio/response' >   <div className="flip-card-back">
+                   <div className="flip-card-back">
                    <h1>Responsive Design
 </h1>
                    <p> Development/ Idea</p>
                
                   </div>
-                  </a>
                  </div>
                    </div>
 
@@ -84,4 +84,4 @@ const VartualReality = () => {
      )
 }
 
-export default VartualReality
+export default SocialMedia
