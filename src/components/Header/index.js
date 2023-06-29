@@ -166,7 +166,7 @@ const companySmallDiveces=()=>{
 
     </li>  
     
-    <li  className= "list active"  >
+    <li  className= "list active "  >
     <div className='small-sub-icon' /*onClick={technologiesSmallDive} */ >
     
     TECHNOLOGY

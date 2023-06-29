@@ -68,7 +68,7 @@ const Blog = () => {
                       </div>
                           </div>  */}
                           <p>The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating...</p>
-                          <button>Read More</button>
+                          <Link to="/blog/blog2">     <button>Read More</button> </Link>
                         
                     </div>
                      </div>
@@ -101,7 +101,7 @@ const Blog = () => {
                       </div>
                           </div>  */}
                           <p>The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating...</p>
-                          <button>Read More</button>
+                          <Link to="/blog/blog3">     <button>Read More</button> </Link>
                         
                     </div>
                      </div>
@@ -110,7 +110,7 @@ const Blog = () => {
 
                 
                 <div className='blogos-card'>
-                    <img src="https://myfriend.net.in/wp-content/uploads/2019/11/blog4.jpg" className='imge-blog' alt="Avatar" />
+                    <img src="https://myfriend.net.in/wp-content/uploads/2019/05/blog-slide3.jpg" className='imge-blog' alt="Avatar" />
                     <div class="p-4">
                     <div className='blog-posted-date'>
                     <h5 className='blog-text'>Blog Article</h5>
@@ -132,7 +132,7 @@ const Blog = () => {
                       </div>
                           </div>  */}
                           <p>The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating...</p>
-                          <button>Read More</button>
+                          <Link to="/blog/blog4">     <button>Read More</button> </Link>
                         
                     </div>
                      </div>
@@ -173,7 +173,7 @@ const Blog = () => {
                     <div className='blog-posted'>
                         
                           <p>The basic premise of search engine reputation management is to use the following three strategies to accomplish the goal of creating...</p>
-                          <button>Read More</button>
+                          <Link to="/blog/blog5">     <button>Read More</button> </Link>
                         
                     </div>
                      </div>

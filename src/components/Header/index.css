@@ -28,6 +28,7 @@
     padding-right: 30px;
     font-size:18px;
     font-weight: 600;
+    font-family: 'Rubik', sans-serif;
 }
 .main-header.fixed-header {
     position: fixed;

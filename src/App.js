@@ -33,6 +33,10 @@ import SocialMedia from "./components/Protfolio/ProtfolioDetailedComponents/Soci
 import BasicProject from "./components/Protfolio/ProtfolioDetailedComponents/BasicProject";
 import NewReality from "./components/Protfolio/ProtfolioDetailedComponents/NewReality";
 import Blog1 from "./components/Blogs/BlogsDetailed/Blog1";
+import Blog2 from "./components/Blogs/BlogsDetailed/Blog2";
+import Blog3 from "./components/Blogs/BlogsDetailed/Blog3";
+import Blog4 from "./components/Blogs/BlogsDetailed/Blog4";
+import Blog5 from "./components/Blogs/BlogsDetailed/Blog5";
 
 
 
@@ -86,6 +90,10 @@ function App() {
         <Route path="/portfolio/basicproject" element={<BasicProject/>}/>
         <Route path="/protfolio/newreality" element={<NewReality/>}/>
         <Route path="/blog/blog1" element={<Blog1/>}/>
+        <Route path="/blog/blog2" element={<Blog2/>}/>
+        <Route path="/blog/blog3" element={<Blog3/>}/>
+        <Route path="/blog/blog4" element={<Blog4/>}/>
+        <Route path="/blog/blog5" element={<Blog5/>}/>
         
         
 
