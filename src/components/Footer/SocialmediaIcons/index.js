@@ -1,6 +1,6 @@
 import React from 'react';
 import "./index.css"
-import {GrYoutube} from "react-icons/gr"
+
 
 const SocialMediaIcons = () => {
   return (
@@ -13,22 +13,22 @@ const SocialMediaIcons = () => {
       </div>
       <div className="logo-container">
         <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">
-          <img  className='twitter' src='https://th.bing.com/th?id=OIP.3rSTYI2unlM-9raJQJW3lwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' alt="youtube"/>
+          <img alt="youtube"  className='twitter' src='https://th.bing.com/th?id=OIP.3rSTYI2unlM-9raJQJW3lwHaHa&w=250&h=250&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2' alt="youtube"/>
         </a>
       </div>
       <div className="logo-container">
         <a href="https://www.twitter.com/" target="_blank" rel="noopener noreferrer">
-          <img alt="twitter" className='twitter' src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIIAAACCCAMAAAC93eDPAAAAYFBMVEUDqfT///8ApvQAo/MAofPl9f77/v/q9/624Pv3/P9owPfP6vzy+v6q2frB5Puo2vrd8P2w3fuc1Pl4x/gwr/VUufaFzPhXvPZzw/fJ5/xAsvXV7v1EtvWR0PnZ6/wAnvOkxvkSAAAFPklEQVR4nO2b2dqCOAxAS8uOgmyyOvP+bzllUUs3ugD/xZhLPyXHJE2TNgDnzwX8NcAP4YfwQ/gh/H8QbkOXhnmYDsGfIHhp2QMAFwF9HD6uRfDTuEIQEAIRaPKID5uF/uEIGaX/Q1H4zHeDJ0JufzBCDhCrfxGEiu13H+UMO3/8RYiKsdz1m1i8mGMAAmL8PjvqYrB8GT43CKULUOWZEqRASoC1gfvKWvQfd6GcREgmK8LKkODlygFmffgvD8WICHchn0ToZzIYGxGUwijYGGLE4UoaC5YOgZCiL+pJBID11UAifIIJvbQJXooEDNFi8hUh+D6FXj+70inEAV88EqEgY0SPwTMFmPQMye2NsFnUWgy+PB9IpA7yBoeotyAEFJ9GTIaGgYAR4JQfYLwgDNRzUKNKEFWmBF+ZH5TTfwXWinmyMHXDR9NqhSfzIFglSgiWAFhRsiC0nP+C7goEqfGCfGvJ1hXR8MyJmn1nGC+Ht47WkSFgZ4Q7BAHvZxoCq5scYYKUF6Cp8YpcESY7yxFwGSpNU2wY6xHMIb8glOJHQRCyhd9baisCtPh5QZDudXBMBRCeVV6aS6YPgjzLQrfmx+VwBMGK8NjzKa7DOYHZWYQCTJ0Nwq3f/wmI0xuNYLwgyOS7bta89Mj8DPZlsmmMjNck7AmbrgihWqKFLmizhzUCbMn4XhEi5YdBvMvXRTpMTkkMEdA/Dosgyww8DAiqvim1fkQidDyEQf9pEJouCJTyEJzatvbQQQi5CAZmMEfIWYRHF+hFgyUCa4UnckFuu/frIDCxkExJwW2sK1F1hIRGWHRfGQtMXsgu1D4LHGgE84bIVDwage6lTpf+RiPcrkaofRrBviXSE+o0aUawbUg0hTrImRGYrvZccVMWwaoM1RfksQiXbpMAVBEH4VJP0Geb3IOekxEKHoJtc6gl6MFFuDI7QYeLYHyCakBAH3O/EaLqKldAuj/91I7pVQgV3Zx+r0Se17gCMkeaxN1UcwnDto2hEPz+Cl8wftjc0AUXhCRkj7c3l4TBeLovEHuWub2n9NuTGXh3X/RV6cu4V1WSbRPDQ3h0TjKeyMC9hCQRouZf1x2fB9wwiATxTu5IhPt8W3qmEXreHT6JcHpvvW3qeQin97VcI2xj4cQomMTlX/RsVkR2alZgNygOgsIhrA3CoIBgf9UkEVTyCejseGIZO9In2AIE/7TDFrZOECCc1ttBkRs4Ez22N14iEd8usUNFpxz7QMndL2euKTw+HKTjCLzRqvDorUqUlMQIjnd0ASdaj2KEKT8caAgoHxoTzbgdWDwxHZwiAo4IwBvb05fdyRjZpF/XInuK/Tkp+bBhkMeWm6ckK6oh4P3brppTmZmTI9wsVwZqxHlZCSEpLZcmahUIxAheWNvmBoU4ECMEWSweZFW2geKMGIPgdfcWuAekBDdTI8AIYRuXr3ue3++vMh7nIWpr9dNNl9po1oSQI6wTLXKM9pmgVx8mBqfU7W4s3RsphBME7m1MFEJxeJ2Gar2JbuAfWhpME/AFfwpfjICXYeseB6Eym8ci4OahOaY0AKjinCUpITh+Z52NwXSSpOsDAgFLZ2sJiF5K76WIEaZ3FqA5BQJPjVQgQnCcKDczBUSj4GUUbQQsw7PXjAr89bgzB+Bt1n7yqpR3Sry7NKFZCEgQJvHubYXQjjmw+qq0cIAcAUvkZWVdQW4ZP22t1dhmnr1+GcIswZAW7ViBz7tYk2Gqqi7vwzHq9xFWuXlDks6vpKXdEBymWwfhXPkh/BB+CD+EHwJP/gNBVkDHPUTIMQAAAABJRU5ErkJggg==" alt="Pinterest" />
+          <img alt="twitter" className='twitter' src="data:image/png;base64,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"  />
         </a>
       </div>
       <div className="logo-container">
         <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">
-          <img className='twitter' src="https://th.bing.com/th/id/R.5e04fd779e7607a47d0bad14976caa90?rik=MYieavaZpaXrMw&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f02%2fNew-Instagram-logo.jpg&ehk=kTNHOU7RNhSBC8VTl4FPXOmyjXgyJlrNtPiZ9qk03fA%3d&risl=&pid=ImgRaw&r=0" alt="Instagram" />
+          <img className='twitter'  src="https://th.bing.com/th/id/R.5e04fd779e7607a47d0bad14976caa90?rik=MYieavaZpaXrMw&riu=http%3a%2f%2f1000logos.net%2fwp-content%2fuploads%2f2017%2f02%2fNew-Instagram-logo.jpg&ehk=kTNHOU7RNhSBC8VTl4FPXOmyjXgyJlrNtPiZ9qk03fA%3d&risl=&pid=ImgRaw&r=0" alt="Instagram" />
         </a>
       </div>
       <div className="logo-container">
         <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer">
-          <img className='twitter' src="https://i.pinimg.com/originals/38/9b/14/389b14861f4be0c8d84876b3dda9afc0.jpg" />
+          <img className='twitter' src="https://i.pinimg.com/originals/38/9b/14/389b14861f4be0c8d84876b3dda9afc0.jpg" alt='imge' />
         </a>
       </div>
       <div className="logo-container">

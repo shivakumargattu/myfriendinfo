@@ -32,6 +32,7 @@ import AppForHealth from "./components/Protfolio/ProtfolioDetailedComponents/App
 import SocialMedia from "./components/Protfolio/ProtfolioDetailedComponents/SocialMedia";
 import BasicProject from "./components/Protfolio/ProtfolioDetailedComponents/BasicProject";
 import NewReality from "./components/Protfolio/ProtfolioDetailedComponents/NewReality";
+import Blog1 from "./components/Blogs/BlogsDetailed/Blog1";
 
 
 
@@ -84,6 +85,7 @@ function App() {
         <Route path="/portfolio/socialmedia" element={<SocialMedia/>}/>
         <Route path="/portfolio/basicproject" element={<BasicProject/>}/>
         <Route path="/protfolio/newreality" element={<NewReality/>}/>
+        <Route path="/blog/blog1" element={<Blog1/>}/>
         
         
 
