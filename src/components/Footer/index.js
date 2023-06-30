@@ -29,15 +29,17 @@ const Footer = () => {
     
                  <div className="footer-subHeading m-2">
                   <h3 className="header-footer">India</h3>
+                  <div className="footer-text-container">
                   <p> <FaMapMarkerAlt/>&nbsp; Visakhapatnam, Andhra Pradesh</p>
                   <p className="active"><FaPhoneAlt/>&nbsp;+91 - 6281 786 602 </p>
+                 </div>
                  </div>
 
 
               <div className="footer-subHeading m-2">
                   <h3 className="header-footer">Services</h3>
                  <div className=" footer-service">
-                  <div className="box2">
+                  <div className="footer-text-container">
                 <a className="link-footers" href="/service/webdevlopment">  <p className="active ">Web Development</p></a>
                <a className="link-footers" href="/mobiledevelopment"> <p className="active">Mobile Development</p> </a>
                <a className="link-footers" href="/webdesign">   <p className="active">Web Design</p> </a>
@@ -52,19 +54,19 @@ const Footer = () => {
                <div className="footer-subHeading m-2">
         <h3 className="header-footer">Contact Us</h3>
           <div className="footer-service">
-          <div className="box2">  
+          <div className="footer-text-container">  
             <p>
-              <FaMapMarkerAlt /> &nbsp; Address: Visakhapatnam, Andhra Pradesh.
+              <FaMapMarkerAlt /> &nbsp; Visakhapatnam, Andhra Pradesh.
             </p>
             <p>
-              <FaPhoneAlt /> &nbsp; Phone:+91 - 6281 786 602.
+              <FaPhoneAlt /> &nbsp; +91 - 6281 786 602.
             </p>
             
             <p>
-              <FaEnvelope /> &nbsp; Email: contact@myfriend.net.in
+              <FaEnvelope /> &nbsp; contact@myfriend.net.in
             </p>
             <p>
-              <FaGlobe /> &nbsp; Website: info@myfriend.net.in
+              <FaGlobe /> &nbsp; info@myfriend.net.in
             </p>
           </div>
           </div>
@@ -73,7 +75,7 @@ const Footer = () => {
           <div className="footer-subHeading m-2">
                   <h3 className="header-footer">Subscribe</h3>
                  <div className=" footer-service">
-                  <div className="box2">
+                  <div className="footer-text-container">
                   <p className="active ">Follow our newsletter to stay <br/> updated about agency.</p>
                  </div>
                 </div>             

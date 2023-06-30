@@ -114,7 +114,7 @@ const ContactUs = () => {
         <textarea id="message" name="message" placeholder=' Message*' required></textarea>
 
         <br/>
-        <label className='input-flids' htmlFor="fileInput">
+        <label className='input-flids input-flids-label' htmlFor="fileInput">
         {selectedFile ? (
           <span>: {selectedFile.name}</span>
         ) : (
