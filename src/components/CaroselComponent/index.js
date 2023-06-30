@@ -11,7 +11,7 @@ function Carouseles() {
   
 
         <div className=''>
-        <div className='carosel-conatiner-text p-4 pb-5'>
+        <div className='carosel-conatiner-text p-4 pb-3'>
             <h1 className='carosel-mai-heading'>Web Development</h1>
             <h4 className='carosel-sub-head'> Creating Digital Experiences that Stand out from the Crowd</h4>
             <p className='carosel-description'>Our web development services provide custom solutions tailored to your business needs. Whether you need a simple brochure website or a complex e-commerce platform, our experienced developers will bring your vision to life.</p>
@@ -21,7 +21,7 @@ function Carouseles() {
         </div>    
         
         <img
-          className=" banner-imge imges-oreder "
+          className=" banner-imge-digital  imges-oreder "
           src= "https://img.webcodegenie.com/img/home/banner-web-development.svg?ver=20230608134812"
           alt="First slide"
         />
@@ -37,7 +37,7 @@ function Carouseles() {
   
 
   <div className=' '>
-  <div className='carosel-conatiner-text p-3 pb-5'>
+  <div className='carosel-conatiner-text p-4 pb-3'>
       <h1 className='carosel-mai-heading app-develop-main-heading'>Mobile Development</h1>
       <h4 className='carosel-sub-head'> Cross-platform app  <br/> We use Tech to Create, Connect<br/> Grow
 </h4>
@@ -48,7 +48,7 @@ function Carouseles() {
   </div>    
   
   <img
-    className="banner-imge"
+    className="banner-imge-digital "
     src= "https://img.webcodegenie.com/img/home/banner-app-development.svg?ver=20230608134812"
     alt="First slide"
   />
