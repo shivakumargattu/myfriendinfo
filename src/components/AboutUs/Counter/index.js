@@ -75,7 +75,7 @@ const NumberCard = () => {
         </div>
       </div>
 
-      <div className="card-counetr  m-3">
+      <div className="card-counetr  m-5">
         <div>
          <h1 className='counter-text'>  {number4} +</h1>
          <p className='counter-text-descripion'>Team Advisors</p>
