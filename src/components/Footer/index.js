@@ -17,7 +17,7 @@ const Footer = () => {
     
       <div className="top-footer-container">
          <div className="top-footer">
-           <img className="logo-imge" src=" https://myfriend.net.in/wp-content/uploads/2020/09/MFIS.png"/>
+           <img className="logo-imge" alt="imge" src=" https://myfriend.net.in/wp-content/uploads/2020/09/MFIS.png"/>
            <div className="compynes-logos">
            
            </div> 

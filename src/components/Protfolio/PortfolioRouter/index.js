@@ -98,6 +98,24 @@ const PortfolioRouter = () => {
                </div>
           
 
+               <div className="imge-proto-card shadow  m-3">
+          <Link to="/protfolio/analysis">         <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-10.jpg" className="card-img-top" alt="protofloi"/></Link>
+                   <div className="card-body m-3">
+                    <h5><b>Analysis of Security</b></h5>
+                    <p>DESIGN / development</p>
+                   </div>
+               </div>
+          
+
+               <div className="imge-proto-card shadow  m-3">
+          <Link to="/protfolio/crypto">         <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-12.jpg" className="card-img-top" alt="protofloi"/></Link>
+                   <div className="card-body m-3">
+                    <h5><b>Crypto App Project</b></h5>
+                    <p>TECHNOLOGY/Development</p>
+                   </div>
+               </div>
+          
+
 
           
            </div>

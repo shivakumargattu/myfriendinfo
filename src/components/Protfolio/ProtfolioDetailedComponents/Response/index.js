@@ -39,10 +39,10 @@ const ResponseDesign = () => {
                   <div className="flip-card-front">
                   <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-8.jpg" className='w-100 h-100' alt="Avatar" />
                  </div>
-                   <div className="flip-card-back">
+                 <div className="flip-card-back">
                    <h1>Basic Project</h1>
                    <p>Design / Development</p>
-               
+                   <a href='/portfolio/basicproject' className='active list-type'>  <p>Vist Now</p></a>
                   </div>
                  </div>
                    </div>
@@ -55,6 +55,8 @@ const ResponseDesign = () => {
                    <div className="flip-card-back">
                    <h1>App for Virtual Reality</h1>
                    <p>DESIGN/IDEAS</p>
+                   <a href='/vertualreality' className='active list-type'>  <p>Vist Now</p></a>
+                 
                
                   </div>
                  </div>
@@ -68,6 +70,8 @@ const ResponseDesign = () => {
                    <div className="flip-card-back">
                    <h1>Analysis of Security</h1>
                    <p> Development/ Idea</p>
+                   <a href='/portfolio/analysis' className='active list-type'>  <p>Vist Now</p></a>
+                
                
                   </div>
                  </div>

@@ -41,6 +41,8 @@ const Ecomerce = () => {
                    <div className="flip-card-back">
                    <h1>Crypto App</h1>
                    <p>Technology /Idea</p>
+                   <a href='/portfolio/crypto' className='active list-type'><p>Vist Now</p></a>
+               
                
                   </div>
                  </div>
@@ -54,6 +56,8 @@ const Ecomerce = () => {
                    <div className="flip-card-back">
                    <h1>Social Media App</h1>
                    <p>Technology / Development</p>
+                   <a href='/portfolio/socialmedia' className='active list-type'><p>Vist Now</p></a>
+               
                
                   </div>
                  </div>
@@ -64,12 +68,10 @@ const Ecomerce = () => {
                   <div className="flip-card-front">
                   <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-10.jpg" className='w-100 h-100' alt="Avatar" />
                  </div>
-                   <div className="flip-card-back">
-                   <h1>Immersive Experience
-
-</h1>
-                   <p> Development/ Idea</p>
-               
+                 <div className="flip-card-back">
+                   <h1>Basic Project</h1>
+                   <p>Design / Development</p>
+                   <a href='/portfolio/basicproject' className='active list-type'>  <p>Vist Now</p></a>
                   </div>
                  </div>
                    </div>

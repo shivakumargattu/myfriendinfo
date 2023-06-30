@@ -37,6 +37,8 @@ import Blog2 from "./components/Blogs/BlogsDetailed/Blog2";
 import Blog3 from "./components/Blogs/BlogsDetailed/Blog3";
 import Blog4 from "./components/Blogs/BlogsDetailed/Blog4";
 import Blog5 from "./components/Blogs/BlogsDetailed/Blog5";
+import Analysis from "./components/Protfolio/ProtfolioDetailedComponents/Analysis";
+import CryptoProject from "./components/Protfolio/ProtfolioDetailedComponents/Crypto";
 
 
 
@@ -89,6 +91,8 @@ function App() {
         <Route path="/portfolio/socialmedia" element={<SocialMedia/>}/>
         <Route path="/portfolio/basicproject" element={<BasicProject/>}/>
         <Route path="/protfolio/newreality" element={<NewReality/>}/>
+        <Route path="/protfolio/analysis" element={<Analysis/>}/>
+        <Route path="/protfolio/crypto" element={<CryptoProject/>}/>
         <Route path="/blog/blog1" element={<Blog1/>}/>
         <Route path="/blog/blog2" element={<Blog2/>}/>
         <Route path="/blog/blog3" element={<Blog3/>}/>

@@ -42,6 +42,7 @@ const AppForHealth = () => {
                    <div className="flip-card-back">
                    <h1>Basic Project</h1>
                    <p>Design / Development</p>
+                   <a href='/portfolio/basicproject' className='active list-type'><p>Vist Now</p></a>
                
                   </div>
                  </div>
@@ -55,6 +56,8 @@ const AppForHealth = () => {
                    <div className="flip-card-back">
                    <h1>Mobile Coin View App</h1>
                    <p>Development</p>
+                   <a href='/portfolio/coinmobileapp' className='active list-type'><p>Vist Now</p></a>
+               
                
                   </div>
                  </div>
@@ -68,6 +71,7 @@ const AppForHealth = () => {
                    <div className="flip-card-back">
                    <h1>Corporate Website</h1>
                    <p> Development/ Idea</p>
+                   <a href='/portfolio/crypto' className='active list-type'><p>Vist Now</p></a>
                
                   </div>
                  </div>

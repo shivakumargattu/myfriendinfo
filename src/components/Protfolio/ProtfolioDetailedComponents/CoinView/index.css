@@ -1,3 +1,11 @@
 *{
     font-family: "rubik";
 }
+.list-type{
+    text-decoration: none;
+    list-style-type: none;
+    color: #fff;
+    transition: 2s;
+    font-size: 15px;
+
+}

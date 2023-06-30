@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-const BasicProject = () => {
+const CryptoProject = () => {
   return (
   <>
        <div className='m-4'>
@@ -75,4 +75,4 @@ const BasicProject = () => {
      )
 }
 
-export default BasicProject
+export default CryptoProject

@@ -33,10 +33,10 @@ const CoinView = () => {
                   <div className="flip-card-front">
                   <img src="https://myfriend.net.in/wp-content/uploads/2019/11/project-details-8.jpg" className='w-100 h-100' alt="Avatar" />
                  </div>
-                   <div className="flip-card-back">
+                 <div className="flip-card-back">
                    <h1>Basic Project</h1>
                    <p>Design / Development</p>
-               
+                   <a href='/portfolio/basicproject' className='active list-type'>  <p>Vist Now</p></a>
                   </div>
                  </div>
                    </div>
@@ -49,6 +49,8 @@ const CoinView = () => {
                    <div className="flip-card-back">
                    <h1>Corporate website</h1>
                    <p> Development</p>
+                   <a href='/portfolio/response' className='active list-type'><p>Vist Now</p></a>
+               
                
                   </div>
                  </div>
@@ -63,6 +65,8 @@ const CoinView = () => {
                    <h1>Responsive Design
 </h1>
                    <p> Development/ Idea</p>
+                   <a href='/portfolio/response' className='active list-type'><p>Vist Now</p></a>
+               
                
                   </div>
                  </div>

@@ -41,6 +41,7 @@ const SocialMedia = () => {
                    <div className="flip-card-back">
                    <h1>eCommerce Website</h1>
                    <p>Design / Development</p>
+                   <a href='/portfolio/ecomerce' className='active list-type'><p>Vist Now</p></a>
                
                   </div>
                  </div>
@@ -54,6 +55,7 @@ const SocialMedia = () => {
                    <div className="flip-card-back">
                    <h1>Analysis of Security</h1>
                    <p>Technology / Development</p>
+                   <a href='/portfolio/ecomerce' className='active list-type'><p>Vist Now</p></a>
                
                   </div>
                  </div>
@@ -68,6 +70,8 @@ const SocialMedia = () => {
                    <h1>Responsive Design
 </h1>
                    <p> Development/ Idea</p>
+                   <a href='/portfolio/response' className='active list-type'><p>Vist Now</p></a>
+               
                
                   </div>
                  </div>
