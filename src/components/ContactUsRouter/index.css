@@ -11,8 +11,8 @@
 .conatct-deyacls-cards{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 .conatct-cards{
@@ -60,4 +60,11 @@ conatct-card-brands{
    flex-wrap: wrap;
    width: 560px;
 
+}
+.conatct-froms-router{
+    
+    background-color: #fff;
+    padding: 30px;
+    width: 50%;
+    align-items: flex-start;
 }

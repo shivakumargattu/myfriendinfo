@@ -1,12 +1,44 @@
-import React from 'react'
+import React,{useState} from 'react'
 import "./index.css"
 
+import {AiFillFileText} from "react-icons/ai"
+
+
 const ConatctUsRouter = () => {
+
+        const [selectedFile, setSelectedFile] = useState(null);
+        const [imageUrl, setImageUrl] = useState('');
+        const [showImage, setShowImage] = useState(false);
+      
+        const handleFileChange = (event) => {
+          setSelectedFile(event.target.files[0]);
+          setShowImage(false);
+        };
+      
+        const handleImageUrlChange = (event) => {
+          setImageUrl(event.target.value);
+          setShowImage(true);
+        };
+      
+        const handleSubmit = (event) => {
+          event.preventDefault();
+          // Handle form submission with the selected file or image URL
+          if (selectedFile) {
+            console.log('Selected file:', selectedFile);
+            // Add your logic here to process the file or send it to the server
+          } else if (imageUrl) {
+            console.log('Image URL:', imageUrl);
+            // Add your logic here to handle the image URL
+          }
+        };
+      
+
+
     
-  const handleFileChange = (event) => {
+  {/*const handleFileChange = (event) => {
     const file = event.target.files[0];
     console.log(file); // Do something with the uploaded file
-  };
+  };*/}
   return (
     <>
     <div className='bg-color'>
@@ -67,8 +99,9 @@ const ConatctUsRouter = () => {
                  <div class=" logo-cantainer-logo shadow">
          <img className='logo-imges' alt='logos' src="https://99designs-blog.imgix.net/blog/wp-content/uploads/2017/04/attachment_79397237-e1492457556172.png?auto=format&q=60&fit=max&w=930"/>
                   </div>
-                 </div>  
-                 <div className=' cards-fomms shadow'>
+                 </div> 
+
+        {  /*       <div className=' cards-fomms  shadow'>
          <form className="my-form-conat">
           <input type="text" className='input-flids' placeholder='Full Name*' required />
           <br/>
@@ -78,10 +111,54 @@ const ConatctUsRouter = () => {
           <br/>
           <input type="file" id="file" className='input-flids' name="file" onChange={handleFileChange} />
           <br/>
-          <textarea id="message" name="message" placeholder='Message*' className='text-area' required></textarea><br/>
+          <textarea id="message" name="message" placeholder='Message*' className='text-area w-90 ' required></textarea><br/>
           <button type="submit" className='get-in-btn nobg-btn'>Submit</button>
         </form> 
-              </div>
+                </div>*/}
+
+       
+                <div className='conatct-froms-router  shadow'>
+      
+      <form className="my-form">
+     
+     
+     <input type="text" className='input-flids' placeholder='   Full Name*' required />
+     <br/>
+     
+   
+     <input type="email" id="email" className='input-flids' placeholder="   Email*"  name="email" required />
+
+     <br/>
+     <input type="number" id="phone" className='input-flids' placeholder="   Phnoe Number*"  name="phone" required />
+  <br/>
+    
+     <textarea id="message" name="message" placeholder=' Message*' required></textarea>
+
+     <br/>
+     <label className='input-flids' htmlFor="fileInput">
+     {selectedFile ? (
+       <span>: {selectedFile.name}</span>
+     ) : (
+       <span className=''> <AiFillFileText/> Attach a file</span>
+     )}
+     <input
+       type="file"
+       id="fileInput"
+       onChange={handleFileChange}
+       accept=".txt, .pdf, .doc"
+       style={{ display: 'none' }}
+       placeholder='   Attach File'
+     />
+   </label>
+   <br/>
+    {/* <input type="file" id="file" className='input-flids' name="  file" onChange={handleFileChange} />
+     <br/>*/}
+   
+     
+     <button type="submit" className='get-in-btn nobg-btn'>Submit</button>
+     </form> 
+        </div>
+
                  </div>
  
 
