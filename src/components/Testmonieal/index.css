@@ -1,3 +1,6 @@
+.carosel-main-conatiner{
+  
+}
 .testimoniel{
     background-color: #fcf9f9;
     padding: 5px;
@@ -127,6 +130,7 @@
     border-radius: 10px;
   }
 
+
   *{
       font-family: 'Rubik', sans-serif;
 
@@ -136,4 +140,33 @@
     padding: 13px;
     font-size: 16px;
     font-family: 'Rubik', sans-serif;
+  }
+  @media screen and (max-width:640px) {
+    .large-divces-testinmonel{
+      display: none;
+    }
+    .samll-device-testimonels{
+      display: block;
+    }
+  }
+
+  @media screen and (min-width:640x) {
+    .samll-device-testimonels{
+      display: none;
+    }
+    .large-divces-testinmonel{
+      display: block;
+    }
+    
+  }
+  
+  .testi-container-cards{
+    display: flex;
+    flex-direction: column;
+justify-content: center;
+align-items: center;
+
+  }
+  .carosel-testi-img{
+    height: 40%;
   }
