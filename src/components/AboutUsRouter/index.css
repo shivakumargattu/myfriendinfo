@@ -2,6 +2,13 @@
     font-family: 'Rubik', sans-serif;
 
 }
+.about-router-bg-conatiner{
+    padding-top:60px ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
 .about-cards{
     padding: 5px;
     display: flex;
@@ -30,4 +37,23 @@
     text-align: left;
     margin-left: 10px;
     font-size: large;
+}
+
+.about-router-container{
+    text-align: left;
+    display: flex ;
+    justify-content:space-around ;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-router-card-conatiner{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10px;
+}
+.about-router-imge-conatiner{
+    min-width: 300;
+    max-width: 500px;
 }
