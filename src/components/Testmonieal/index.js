@@ -194,8 +194,8 @@ const Testimonel = () => {
              <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
               <div className="container-testimonels">
               <h4 className=''><b>Swetha</b></h4>
-<p>I'd like to say a few words about the My Friend Info Solutions crew. We've been working on small and large websites together, and they've all been developed with high quality and in a timely manner; I'm very pleased with the results of the projects we've been working on together. Their dedicated web developer was extremely knowledgeable, friendly, and communicative. Overall, the team was a pleasure to work with.</p>
-   </div>
+              <p>I'd like to say a few words about the My Friend Info Solutions crew. We've been working on small and large websites together, and they've all been developed with high quality and in a timely manner; I'm very pleased with the results of the projects we've been working on together. Their dedicated web developer was extremely knowledgeable, friendly, and communicative. Overall, the team was a pleasure to work with.</p>
+          </div>
             </div>
             </div>
            </div>
