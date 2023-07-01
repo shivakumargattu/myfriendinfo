@@ -191,7 +191,7 @@ const companySmallDiveces=()=>{
   
   <a className="nav-link-subMenu-Items" href="/portfolio">    <p className="active">-Portfolio</p></a>
   <a className="nav-link-subMenu-Items" href="/blog">    <p className="active">-Blogs</p></a>
-  <a className="nav-link-subMenu-Items" href="/testimonials">    <p className="active">-Testimonials</p></a>
+  <a className="nav-link-subMenu-Items" href="/testimoneal">    <p className="active">-Testimonials</p></a>
         
         
         

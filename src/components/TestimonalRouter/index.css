@@ -60,7 +60,7 @@
 .flip-card-testimoneals {
     background-color: transparent;
     width: 350px;
-    height: 400px;
+    height: 350px;
     border: 1px solid #f1f1f1;
     perspective: 1000px; /* Remove this if you don't want the 3D effect */
     cursor: pointer;
@@ -105,7 +105,7 @@
     text-align: left;
     padding: 20px;
     font-family: 'Rubik', sans-serif;
-    font-size: 20px;
+    font-size: 16px;
   }
   .fontFamily{
     font-family: 'Rubik', sans-serif;

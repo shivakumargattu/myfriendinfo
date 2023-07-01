@@ -38,8 +38,9 @@ const TestimonalRouter = () => {
                   </div>
                     </div>
                    <div class="flip-card-back-testimoneals">
-                     <h3 className='fontFamily'><b>SK Mamidipka</b></h3>
-                      <p className='fontFamily'><b>SK Creative Works</b></p>
+                     <h3 className='fontFamily'><b>Vishu Kumar</b></h3>
+                      <p className='fontFamily'><b>MFINS</b></p>
+                      <p>CEO & Founder</p>
                      <p className='fontFamily'>
 					        	“The Web designing and Digital Marketing services are fabulous. WebIndia has been catering to my logo and poster needs for a long time and there were never any mishaps. Wonderful team.”					        </p>
                   </div>
@@ -101,8 +102,8 @@ const TestimonalRouter = () => {
                       <div class="tectimoneal-card-front-end ">
                       <video src=' http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' controls="controls" autoplay="false" className='w-100'/>
                 <div className='text-left'>
-                      <h3 className='fontFamily'><b>SK Mamidipka</b></h3>
-                       <p class="title fontFamily"><b>CEO & Founder</b></p>
+                      <h3 className='fontFamily'><b> Mamidipka</b></h3>
+                       <p class="title fontFamily"><b>Founder</b></p>
                      <p className='fontFamily'><b>SK Creative Works</b></p>
                   </div>
                   </div>
@@ -147,9 +148,9 @@ const TestimonalRouter = () => {
                       <div class="tectimoneal-card-front-end ">
                       <video src=' http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4' controls="controls" autoplay="false" className='w-100'/>
                 <div className='text-left'>
-                      <h3 className='fontFamily'><b>SK Mamidipka</b></h3>
+                      <h3 className='fontFamily'><b>Surya Kumar</b></h3>
                        <p class="title fontFamily"><b>CEO & Founder</b></p>
-                     <p className='fontFamily'><b>SK Creative Works</b></p>
+                     <p className='fontFamily'><b>SV techno Works</b></p>
                   </div>
                   </div>
                     </div>
