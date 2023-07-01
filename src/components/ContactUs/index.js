@@ -96,7 +96,7 @@ const ContactUs = () => {
            </div>
 
           
-         <div className='conatct-froms shadow'>
+         <div className='conatct-froms hiden-conatct-page shadow'>
       
          <form className="my-form">
         
@@ -140,7 +140,7 @@ const ContactUs = () => {
            
         </div>
     
-        <div className='conatct-froms hiden-card shadow'>
+        <div className='conatct-froms hiden-card  mt-4 shadow'>
       
       <form className="my-form">
      

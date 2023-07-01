@@ -32,8 +32,9 @@ const Testimonel = () => {
 
   return (
     <>
-    <div className='carosel-main-conatiner'>
     <div className='large-divces-testinmonel'>
+    <div className='carosel-main-conatiner'>
+    
     <div className="slider-container testimoniel">
     <h5 className='text small-heading'>TESTIMONIALS
 </h5>
@@ -150,7 +151,7 @@ const Testimonel = () => {
       </div>
     </div>
     </div>
-
+<div className='small-device-testi'>
     <div className='samll-device-testimonels'>
     <h5 className='text small-heading'>TESTIMONIALS
    </h5>
@@ -168,9 +169,7 @@ const Testimonel = () => {
              <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
               <div className="container-testimonels">
               <h4 className=''> Sk Mamidipak</h4>
-  <p>I've been working with my friend Info solutions for the past two years to design and develop mobile applications for my clients. I am quite pleased with their services. They have outperformed my expectations. They have always been there, willing to assist us whenever we needed them. Our experience with Webcodegenie has been nothing short of extraordinary.
-
-</p></div>
+          <p>I've been working with my friend Info solutions for the past two years to design and develop mobile applications for my clients. I am quite pleased with their services. They have outperformed my expectations. They have always been there, willing to assist us whenever we needed them. Our experience with Webcodegenie has been nothing short of extraordinary.</p></div>
             </div>
             </div>
            </div>
@@ -228,6 +227,7 @@ const Testimonel = () => {
 
     </Carousel>
     </div>
+  </div>
     </div>
     </>
   );
