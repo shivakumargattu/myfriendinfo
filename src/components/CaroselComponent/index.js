@@ -7,7 +7,7 @@ function Carouseles() {
     <Carousel className='bg-carosuel' >
     
       <Carousel.Item>
-    <div  className='carousel-content d-flex'>
+    <div  className='carousel-content'>
   
 
         <div className=''>
@@ -19,13 +19,14 @@ function Carouseles() {
       <a href='/contactus'>     <button className='get-in-btn nobg-btn m-3 mt-0'>GET A FREE QUOTE </button></a>
             </div>
         </div>    
-        
+        <div className="banner-imge-digital">
         <img
-          className=" banner-imge-digital  imges-oreder "
+          className=" imges-oreder "
           src= "https://img.webcodegenie.com/img/home/banner-web-development.svg?ver=20230608134812"
           alt="First slide"
         />
         
+        </div>
         </div>
         
       
@@ -37,7 +38,7 @@ function Carouseles() {
   
 
   <div className=' '>
-  <div className='carosel-conatiner-text p-4 pb-3'>
+  <div className='carosel-conatiner-text p-3 pb-3'>
       <h1 className='carosel-mai-heading app-develop-main-heading'>Mobile Development</h1>
       <h4 className='carosel-sub-head'> Cross-platform app  <br/> We use Tech to Create, Connect<br/> Grow
 </h4>
@@ -46,12 +47,13 @@ function Carouseles() {
          
       </div>
   </div>    
-  
+  <div className="banner-imge-digital">
   <img
-    className="banner-imge-digital "
+    className=" "
     src= "https://img.webcodegenie.com/img/home/banner-app-development.svg?ver=20230608134812"
     alt="First slide"
   />
+  </div>
   
   </div>
   
@@ -64,7 +66,7 @@ function Carouseles() {
   
 
   <div className=''>
-  <div className='carosel-conatiner-text p-3 pb-3'>
+  <div className='carosel-conatiner-text pb-3'>
       <h1 className='carosel-mai-heading'>Digital Marketing</h1>
       <h4 className='carosel-sub-head'> We Provide Best Let's Talk about SMM <br/> E-commerce app development</h4>
       <p className='carosel-description'>In the highly competitive digital landscape, our digital marketing services help your business stand out. We employ effective strategies such as search engine optimization (SEO), social media marketing, and pay-per-click (PPC) advertising to increase your online visibility, drive targeted traffic, and generate leads.</p>
@@ -72,13 +74,13 @@ function Carouseles() {
          
       </div>
   </div>    
-  
+  <div className="banner-imge-digital">
   <img
-    className="banner-imge-digital  "
+    
     src= "https://img.webcodegenie.com/img/services/digital-marketing/digital-marketing.webp?ver=20230615133940"
     alt="First slide"
   />
-  
+  </div>
   </div>
   
       </Carousel.Item>
