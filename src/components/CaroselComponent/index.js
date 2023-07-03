@@ -10,11 +10,11 @@ function Carouseles() {
     <div  className='carousel-content'>
   
 
-        <div className=''>
+        <div className='content-text-upwords'>
         <div className='carosel-conatiner-text p-4 pb-3'>
             <h1 className='carosel-mai-heading'>Web Development</h1>
-            <h4 className='carosel-sub-head'> Creating Digital Experiences that Stand out from the Crowd</h4>
-            <p className='carosel-description'>Our web development services provide custom solutions tailored to your business needs. Whether you need a simple brochure website or a complex e-commerce platform, our experienced developers will bring your vision to life.</p>
+            <h4 className='carosel-sub-head'>Making Online Experiences Stand Out from the Competition</h4>
+            <p className='carosel-description'>Our web development services offer unique options that are tailored to the requirements of your company. Our skilled developers will bring your perspective to life whether you need a straightforward brochure website or an elaborate e-commerce platform.</p>
            
       <a href='/contactus'>     <button className='get-in-btn nobg-btn m-3 mt-0'>GET A FREE QUOTE </button></a>
             </div>
@@ -22,8 +22,8 @@ function Carouseles() {
         <div className="banner-imge-digital">
         <img
           className=" imges-oreder "
-          src= "https://img.webcodegenie.com/img/home/banner-web-development.svg?ver=20230608134812"
-          alt="First slide"
+          
+           src="https://i.ibb.co/MNMVbbZ/image-1.png" alt="image-1" border="0"
         />
         
         </div>
@@ -37,20 +37,22 @@ function Carouseles() {
       <div  className='carousel-content d-flex'>
   
 
-  <div className=' '>
+  <div className='content-text-upwords '>
   <div className='carosel-conatiner-text p-3 pb-3'>
       <h1 className='carosel-mai-heading app-develop-main-heading'>Mobile Development</h1>
-      <h4 className='carosel-sub-head'> Cross-platform app  <br/> We use Tech to Create, Connect<br/> Grow
+      <h4 className='carosel-sub-head'> We Offer Best Services; Come Discuss PPC
+E-commerce software creation
 </h4>
-      <p className='carosel-description'>We are a mobile app development company specializing in creating innovative and high-quality mobile applications for various platforms. Our team of skilled developers and designers work collaboratively to deliver mobile solutions that align with your business goals and provide a seamless user experience.</p>
+      <p className='carosel-description'>
+Our digital marketing services make your company stand out in the fiercely competitive online environment. To increase your online visibility, drive targeted traffic, and produce leads, we use efficient strategies like search engine optimization ( SEO ), social media marketing, pay-per-click( PPC ) advertising.</p>
   <a href='/contactus'>    <button className='get-in-btn nobg-btn m-3 mt-0'>GET A FREE QUOTE </button></a>
          
       </div>
   </div>    
   <div className="banner-imge-digital">
   <img
-    className=" "
-    src= "https://img.webcodegenie.com/img/home/banner-app-development.svg?ver=20230608134812"
+    className="  imges-oreder"
+    src= "https://i.ibb.co/f2jK1Jh/image-2.png"  border="0"
     alt="First slide"
   />
   </div>
@@ -65,7 +67,7 @@ function Carouseles() {
       <div  className='carousel-content d-flex'>
   
 
-  <div className=''>
+  <div className='content-text-upwords'>
   <div className='carosel-conatiner-text pb-3'>
       <h1 className='carosel-mai-heading'>Digital Marketing</h1>
       <h4 className='carosel-sub-head'> We Provide Best Let's Talk about SMM <br/> E-commerce app development</h4>
@@ -76,8 +78,8 @@ function Carouseles() {
   </div>    
   <div className="banner-imge-digital">
   <img
-    
-    src= "https://img.webcodegenie.com/img/services/digital-marketing/digital-marketing.webp?ver=20230615133940"
+     className="  imges-oreder"
+    src= "https://i.ibb.co/RcKT9d9/image-3.png"
     alt="First slide"
   />
   </div>

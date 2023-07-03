@@ -5,7 +5,7 @@
   margin-top: 82px;
   padding-top: 10px;
   padding-bottom: 50px;
-  background-color:  #e6ecfa;
+  background-color:  #dbe4f7;
 border-radius: 90px;
 font-family: "Rubik, sans-serif" ;
 }
@@ -22,7 +22,7 @@ font-family: "Rubik, sans-serif" ;
       color: transparent;
   display: inline;font-weight: 900;
   width: 120%;
-
+ 
 }
 .carosel-sub-head{
   color: #007bff;
@@ -53,7 +53,7 @@ width: 140%;
   }
   
   .slick-dots li.slick-active button:before {
-    color: #ff0000;
+    color: orange;
   }
   
   .background-card{
@@ -120,14 +120,62 @@ width: 140%;
   }
   .imges-oreder{
     order: 1;
+    border-radius: 20px;
   }
   .banner-imge-digital{
     height: 290px;
     width: 300px;
+    border-radius:110px ;
+    opacity: 0; /* Initially hide the content */
+    transform: translateY(100%); /* Move the content down */
+    animation: slide-up1 1s forwards; /* Apply the animation */
     background-size: cover;
   }
   .digi-imges{
     height: 120px;
     width: 130px;
     background-size: cover;
+  }
+  .content-text-upwords {
+    opacity: 0; /* Initially hide the content */
+    transform: translateY(100%); /* Move the content down */
+    animation: slide-up 1s forwards; /* Apply the animation */
+  }
+  
+  @keyframes slide-up {
+    0% {
+      opacity: 0;
+      transform: translateY(100%); /* Start from the bottom */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Move to the original position */
+    }
+  }
+  
+  @keyframes slide-up1 {
+    0% {
+      opacity: 0;
+      transform: translateX(100%); /* Start from the bottom */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0); /* Move to the original position */
+    }
+  }
+  
+  .typewriter {
+    overflow: hidden; /* Ensure the text is clipped until animation starts */
+    white-space: nowrap; /* Keep the text on a single line */
+    letter-spacing: 0.1em; /* Adjust the spacing between letters if needed */
+    animation: typewriter 2s steps(20) 1s infinite;
+  }
+  
+  @keyframes typewriter {
+    from {
+      width: 0; /* Start with 0 width, so no text is visible */
+    }
+    to {
+      width: 100%; /* Gradually increase the width to reveal the entire text */
+    }
   }
