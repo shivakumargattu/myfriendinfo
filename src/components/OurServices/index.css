@@ -66,14 +66,19 @@
     margin-top: 25px;
     animation: slide-up 2s forwards;
   }
-  .client-card-cantener{
-   
-  }
+  
   .scrolling-wrapper {
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
   }
   .webdevlopment-banner{
+    
+    height: 180px;
+    width: 100%;
+  }
+
+  .our-services-banner-img{
+    height: 200px;
     width: 100%;
   }

@@ -372,14 +372,4 @@ font-family: 'Rubik', sans-serif;
 
 }
 
-.active-conatiner:hover{
-    background-color: #87b0ee;
-    height: 50px;
-    width: 80%;
-    margin: 5px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding-top: 10px;
 
-}
