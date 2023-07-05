@@ -21,15 +21,16 @@ const Webdesign = () => {
       
       
        <div className='content-web'>
-         <img alt='web' className='imge-card-top'  src="https://images.unsplash.com/photo-1507238691740-187a5b1d37b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=455&q=80"/>
-         <h1>Web Design Company</h1>
+         <img alt='web' className='imge-card-top'  src="https://wepik.com/api/image/ai/609d26dc-37e7-4ae3-afb6-72cbe8aecdc6"/>
+        
+       </div >
+       <div className='webdevelopment-text-content'>
+       <h1>Web Design Company</h1>
          <p>Welcome to our extraordinary web design company, where digital dreams come to life! With our unparalleled creativity and expertise, we craft visually stunning and user-friendly websites that leave a lasting impression. Elevate your online presence with our captivating designs, tailored to showcase your brand's unique story and captivate your target audience. Experience the magic of seamless navigation, cutting-edge features, and responsive design, all meticulously crafted to drive conversions and exceed your expectations.
-
 </p>
-       </div>
-
+        </div>
       
-<div className='conatct-froms shadow'>
+{/*<div className='conatct-froms shadow'>
 <h4 className='p-5 pb-0'><b>Consult Our Webdesign Developers</b></h4>
 <p>Let's Begin the Conversation <br/>- Get in Touch Today!</p>
 <form className="my-form">
@@ -52,7 +53,7 @@ const Webdesign = () => {
 
 <button type="submit" className='get-in-btn nobg-btn'>Submit</button>
 </form> 
-</div>
+</div>*/}
 
   </div>
 

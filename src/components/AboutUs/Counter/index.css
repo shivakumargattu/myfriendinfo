@@ -4,13 +4,15 @@
     justify-content: center;
     flex-wrap: wrap;
     font-family: 'Rubik', sans-serif;
+    background: transparent linear-gradient(58deg, #04427d 0%, #006bc0 100%) 0% 0% no-repeat padding-box;
+    
 
   }
   
   .card-counetr {
     
-      background: transparent linear-gradient(58deg, #04427d 0%, #006bc0 100%) 0% 0% no-repeat padding-box;
-      box-shadow: 0px 12px 25px #1497d04f;
+     /* background: transparent linear-gradient(58deg, #04427d 0%, #006bc0 100%) 0% 0% no-repeat padding-box;*/
+      /*box-shadow: 0px 12px 25px #1497d04f;*/
       border-radius: 15px;
       color: #fff;
       padding: 60px 45px;

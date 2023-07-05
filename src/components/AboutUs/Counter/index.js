@@ -52,7 +52,7 @@ const NumberCard = () => {
   return (
     <div className="card-container-counter">
 
-    <div>
+    
       <div className="card-counetr  ">
         <div>
          <h1 className='counter-text'>  {number1} +</h1>
@@ -60,28 +60,28 @@ const NumberCard = () => {
         </div>
       </div>
 
-      <div className="card-counetr mt-5">
+      <div className="card-counetr ">
         <div>
           <h1 className='counter-text'>{number2} +</h1>
           <p className='counter-text-descripion'>Projects Done</p>
         </div>  
       </div>
-</div>
-<div>
-      <div className="card-counetr m-5">
+
+
+      <div className="card-counetr ">
         <div>
            <h1 className='counter-text'> {number3} +</h1>
            <p className='counter-text-descripion'>Years</p>
         </div>
       </div>
 
-      <div className="card-counetr  m-5">
+      <div className="card-counetr  ">
         <div>
          <h1 className='counter-text'>  {number4} +</h1>
          <p className='counter-text-descripion'>Team Advisors</p>
          </div>
       </div>
-      </div> 
+      
     </div>
   );
 };

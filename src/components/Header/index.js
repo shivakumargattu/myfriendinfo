@@ -248,56 +248,46 @@ const companySmallDiveces=()=>{
 const Services = () => {
   return (<>
   
-  <div className="service-card ">
+  <div className="service-card  ">
        <div className='service-sestion'>
-        <div className= 'item d-flex'>
+        <div className= 'item d-flex m-3 active-conatiner'>
           <BsCodeSquare className='icon'/>
           <div>
           <Link className='blog-text-heading active' to="/service/webdevlopment"> <h1 className='sub-heading-service  active'>Web development</h1></Link>
-            <p className='sub-item-description-service'> Web Development
-           Build your digital presence with our top-notch web development services</p>
-          </div>
+             </div>
         </div>
         
-        <div className= 'item d-flex'>
+        <div className= 'item d-flex m-3 active-conatiner'>
           <FaLaptopCode className='icon'/>
           <div>
         <Link className='blog-text-heading active' to="/webdesign">   <h1 className='sub-heading-service active'>Web Design</h1> </Link>
-            <p className='sub-item-description-service'> 
-
-              Transform your digital vision into a stunning reality with our premium web design services        </p>
+         
           </div>
         </div>
         
-        <div className= 'item d-flex'>
+        <div className= 'item d-flex m-3 active-conatiner'>
           <FaDigitalTachograph className='icon'/>
           <div>
           <Link to="/digitalmarketing" className='blog-text-heading active' > <h1 className='sub-heading-service active'>Digital Marketing</h1></Link>
-            <p className='sub-item-description-service'>
-   
-           Boost your online presence and skyrocket your sales with our dynamic digital marketing services</p>
-          </div>
+                     </div>
         </div>
         
     </div>
    
     <div className='service-sestion'>
-        <div className= 'item d-flex'>
+        <div className= 'item d-flex m-2 active-conatiner'>
           <CiMobile2 className='icon'/>
           <div>
-         <Link to="/mobiledevelopment" className='blog-text-heading active'>  <h1 className='sub-heading-service active'>Mobile App development</h1></Link>
-            <p className='sub-item-description-service'> 
-Unlock the power of mobile with our expert app development services - your ideas, our innovation</p>
+         <Link to="/mobiledevelopment" className='blog-text-heading  active'>  <h1 className='sub-heading-service active'>Mobile App development</h1></Link>
+           
           </div>
         </div>
         
-        <div className= 'item d-flex'>
+        <div className= 'item d-flex m-3 active-conatiner'>
           <AiOutlineFileSearch className='icon'/>
           <div>
           <Link to="/softwaretesing" className='blog-text-heading active'> <h1 className='sub-heading-service active'>Software Testing</h1></Link>
-            <p className='sub-item-description-service'>
-              Deliver flawless software with our top-rated testing services - quality you can rely on     </p>
-          </div>
+                     </div>
         </div>
         
         

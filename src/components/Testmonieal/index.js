@@ -1,236 +1,254 @@
-import React, { useEffect, useRef } from 'react';
-import { Carousel } from 'react-responsive-carousel';
-import 'react-responsive-carousel/lib/styles/carousel.min.css';
-
-import {FcRight,FcLeft} from "react-icons/fc"
-import Swiper from 'swiper';
-import 'swiper/swiper-bundle.css';
+import React, { useState } from 'react';
 import "./index.css"
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
-const Testimonel = () => {
-  const swiperRef = useRef(null);
 
-  useEffect(() => {
-    const swiperInstance = new Swiper(swiperRef.current, {
-      // Swiper configuration options
-    });
+const MyComponent = () => {
+  const [activeSlide, setActiveSlide] = useState(0);
 
-    // Event handlers
-    const handleNextSlide = () => {
-      swiperInstance.slideNext();
-    };
-
-    const handlePrevSlide = () => {
-      swiperInstance.slidePrev();
-    };
-
-    // Clean up event listeners on component unmount
-    return () => {
-      swiperInstance.destroy();
-    };
-  }, []);
+  const handleSlideChange = (index) => {
+    setActiveSlide(index);
+  };
 
   return (
-    <>
-    <div className='large-divces-testinmonel'>
-    <div className='carosel-main-conatiner'>
-    
-    <div className="slider-container testimoniel">
-    <h5 className='text small-heading'>TESTIMONIALS
-</h5>
-    <h1 className='text mb-5 pb-5'>Their Words, Our Success: Client Testimonials
-</h1>
-      <div className="swiper-container-card" ref={swiperRef}>
-        <div className="swiper-wrapper">
-        
-          <div className="swiper-slide">
-            <div className=''>
-            
-            <div class="testimonials-card mb-3">
-            <div className='people-imge '>
-            <img className="imge-testinomels" alt="imge" src="https://fakeimg.pl/150x152/"/>
-           </div>
-  <div className="container-testimonels  pt-3">
-    <h4 className='bottom-padding'><b>Requirement Gathering</b></h4>
-    <p>	We used My friend Info Solutions to build a custom calculator. Our experience from start to finish was excellent. The entire staff is very professional and knowledgeable. There was constant communication and updates throughout the project which made the entire process simple and facile. We would highly recommend My friend Info Solutions.
-</p>
-  </div>
-          </div>
-            </div>
-          </div>
-          <div className="swiper-slide">
-
-
-          <div class="testimonials-card mb-3">
-          <div className='people-imge mb-'>
-          <img className="imge-testinomels" alt="imge" src="https://fakeimg.pl/150x152/"/>
-</div>
-  
-  <div className="container-testimonels">
-    <h4 className='bottom-padding'><b>Mahesh</b></h4>
-    <p>					     
-    My friend Info solutions is a top-notch team which employs a structured agile programming process in their development. Amazing people and helpful. The team is friendly and easy to work with and always produce a good project experience. Besides the team being great, they are fast and efficient, met my deadlines and produced a great final product. I would recommend My Friend Info Solutions to anyone that is looking for software development. </p>
-</div>
+    <section className="gradient-custom">
+      <div className="container my-5 py-5">
+        <div className="row d-flex justify-content-center">
+          <div className="col-md-12">
+            <div className="text-center mb-4 pb-2">
+              <i className="fas fa-quote-left fa-3x text-white"></i>
             </div>
 
-          </div>
-          <div className="swiper-slide">
+            <div className="card">
+              <div className="card-body px-4 py-5">
+                {/* Carousel wrapper */}
+                <div id="carouselDarkVariant" className="carousel slide carousel-dark" data-mdb-ride="carousel">
+                  {/* Indicators */}
+                  <div className="carousel-indicators mb-0">
+                    <button
+                      data-mdb-target="#carouselDarkVariant"
+                      data-mdb-slide-to="0"
+                      className={activeSlide === 0 ? 'active' : ''}
+                      aria-current="true"
+                      aria-label="Slide 1"
+                      onClick={() => handleSlideChange(0)}
+                    ></button>
+                    <button
+                      data-mdb-target="#carouselDarkVariant"
+                      data-mdb-slide-to="1"
+                      className={activeSlide === 1 ? 'active' : ''}
+                      aria-label="Slide 2"
+                      onClick={() => handleSlideChange(1)}
+                    ></button>
+                    <button
+                      data-mdb-target="#carouselDarkVariant"
+                      data-mdb-slide-to="2"
+                      className={activeSlide === 2 ? 'active' : ''}
+                      aria-label="Slide 3"
+                      onClick={() => handleSlideChange(2)}
+                    ></button>
+                    <button
+                      data-mdb-target="#carouselDarkVariant"
+                      data-mdb-slide-to="3"
+                      className={activeSlide === 3 ? 'active' : ''}
+                      aria-label="Slide 4"
+                      onClick={() => handleSlideChange(3)}
+                    ></button>
+                    <button
+                      data-mdb-target="#carouselDarkVariant"
+                      data-mdb-slide-to="4"
+                      className={activeSlide === 4 ? 'active' : ''}
+                      aria-label="Slide 3"
+                      onClick={() => handleSlideChange(4)}
+                    ></button>
+                  </div>
 
-            <div class="testimonials-card mb-3">
-            <div className='people-imge mb-'>
-            <img className="imge-testinomels" alt="imge" src="https://fakeimg.pl/150x152/"/>
-</div>
-  <div className="container-testimonels mb-3 pt-3">
-    <h4 className='bottom-padding'><b>Swetha</b></h4>
-<p>I'd like to say a few words about the My Friend Info Solutions crew. We've been working on small and large websites together, and they've all been developed with high quality and in a timely manner; I'm very pleased with the results of the projects we've been working on together. Their dedicated web developer was extremely knowledgeable, friendly, and communicative. Overall, the team was a pleasure to work with.</p>
-  </div>
+                  {/* Inner */}
+                  <div className="carousel-inner pb-5">
+                    {/* Single item */}
+                    <div className={`carousel-item ${activeSlide === 0 ? 'active' : ''}`}>
+                      <div className="row d-flex justify-content-center">
+                        <div className="col-lg-10 col-xl-8">
+                          <div className="row">
+                            <div className="col-lg-4 d-flex justify-content-center">
+                              <img
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(1).webp"
+                                className="rounded-circle shadow-1 mb-4 mb-lg-0"
+                                alt="woman avatar"
+                                width="150"
+                                height="150"
+                              />
+                            </div>
+                            <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                              <h4 className="mb-4">Maria Smantha - Web Developer</h4>
+                              <p className="mb-0 pb-3">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
+                                aliquam amet animi blanditiis consequatur debitis dicta
+                                distinctio, enim error eum iste libero modi nam natus
+                                perferendis possimus quasi sint sit tempora voluptatem. Est,
+                                exercitationem id ipsa ipsum laboriosam perferendis.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Single item */}
+                    <div className={`carousel-item ${activeSlide === 1 ? 'active' : ''}`}>
+                      <div className="row d-flex justify-content-center">
+                        <div className="col-lg-10 col-xl-8">
+                          <div className="row">
+                            <div className="col-lg-4 d-flex justify-content-center">
+                              <img
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                className="rounded-circle shadow-1 mb-4 mb-lg-0"
+                                alt="woman avatar"
+                                width="150"
+                                height="150"
+                              />
+                            </div>
+                            <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                              <h4 className="mb-4">Lisa Cudrow - Graphic Designer</h4>
+                              <p className="mb-0 pb-3">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit aspernatur.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Single item */}
+                    <div className={`carousel-item ${activeSlide === 4 ? 'active' : ''}`}>
+                      <div className="row d-flex justify-content-center">
+                        <div className="col-lg-10 col-xl-8">
+                          <div className="row">
+                            <div className="col-lg-4 d-flex justify-content-center">
+                              <img
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                className="rounded-circle shadow-1 mb-4 mb-lg-0"
+                                alt="woman avatar"
+                                width="150"
+                                height="150"
+                              />
+                            </div>
+                            <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                              <h4 className="mb-4">Lisa Cudrow - Graphic Designer</h4>
+                              <p className="mb-0 pb-3">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit aspernatur.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    {/* Single item */}
+                    <div className={`carousel-item ${activeSlide === 3 ? 'active' : ''}`}>
+                      <div className="row d-flex justify-content-center">
+                        <div className="col-lg-10 col-xl-8">
+                          <div className="row">
+                            <div className="col-lg-4 d-flex justify-content-center">
+                              <img
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(2).webp"
+                                className="rounded-circle shadow-1 mb-4 mb-lg-0"
+                                alt="woman avatar"
+                                width="150"
+                                height="150"
+                              />
+                            </div>
+                            <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                              <h4 className="mb-4">Lisa Cudrow - Graphic Designer</h4>
+                              <p className="mb-0 pb-3">
+                                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                                accusantium doloremque laudantium, totam rem aperiam, eaque
+                                ipsa quae ab illo inventore veritatis et quasi architecto
+                                beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem
+                                quia voluptas sit aspernatur.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    {/* Single item */}
+                    <div className={`carousel-item ${activeSlide === 2 ? 'active' : ''}`}>
+                      <div className="row d-flex justify-content-center">
+                        <div className="col-lg-10 col-xl-8">
+                          <div className="row">
+                            <div className="col-lg-4 d-flex justify-content-center">
+                              <img
+                                src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(9).webp"
+                                className="rounded-circle shadow-1 mb-4 mb-lg-0"
+                                alt="woman avatar"
+                                width="150"
+                                height="150"
+                              />
+                            </div>
+                            <div className="col-9 col-md-9 col-lg-7 col-xl-8 text-center text-lg-start mx-auto mx-lg-0">
+                              <h4 className="mb-4">John Smith - Marketing Specialist</h4>
+                              <p className="mb-0 pb-3">
+                                At vero eos et accusamus et iusto odio dignissimos qui
+                                blanditiis praesentium voluptatum deleniti atque corrupti quos
+                                dolores et quas molestias excepturi sint occaecati cupiditate
+                                non provident, similique sunt in culpa qui officia mollitia
+                                animi id laborum et dolorum fuga.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  {/* Inner */}
+
+                  {/* Controls */}
+                  <button
+                    className="carousel-control-prev"
+                    type="button"
+                    data-mdb-target="#carouselDarkVariant"
+                    data-mdb-slide="prev"
+                    disabled={activeSlide === 0}
+                    onClick={() => handleSlideChange(activeSlide - 1)}
+                  >
+                    <span className="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Previous</span>
+                  </button>
+                  <button
+                    className="carousel-control-next"
+                    type="button"
+                    data-mdb-target="#carouselDarkVariant"
+                    data-mdb-slide="next"
+                    disabled={activeSlide === 4}
+                    onClick={() => handleSlideChange(activeSlide + 1)}
+                  >
+                    <span className="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span className="visually-hidden">Next</span>
+                  </button>
+                </div>
+                {/* Carousel wrapper */}
+              </div>
             </div>
 
+            <div className="text-center mt-4 pt-2">
+              <i className="fas fa-quote-right fa-3x text-white"></i>
+            </div>
           </div>
-
-          <div className="swiper-slide">
-        
-           <div class="testimonials-card mb-3">
-  <div className='people-imge mb-'>
-  <img className="imge-testinomels" alt="imge" src="https://fakeimg.pl/150x152/"/>
-</div>
- 
-  <div className="container-testimonels pt-3">
-    <h4 className='bottom-padding'><b>SoftTech</b></h4>
-<p>Our firm had struggled a lot to rescue our software development process. Initially, we were resistant to outsourcing the entire project because of its complexity and Industry knowledge. After doing a meeting with the Project Manager at My Friend Info Solutions, we have decided to move the entire product development to them. Our SDLC was never managed this efficiently before.</p>
-  </div>
-           </div>
-          </div>
-
-
-          <div className="swiper-slide">
-        
-             <div class="testimonials-card mb-3">
-  <div className='people-imge mb-'>
-  <img className="imge-testinomels" alt="imge" src="https://fakeimg.pl/150x152/"/>
-</div>
-  <div className="container-testimonels pt-3">
-  <h4 className='bottom-padding'> Sk Mamidipak</h4>
-  <p>I've been working with my friend Info solutions for the past two years to design and develop mobile applications for my clients. I am quite pleased with their services. They have outperformed my expectations. They have always been there, willing to assist us whenever we needed them. Our experience with Webcodegenie has been nothing short of extraordinary.
-
-</p>
-      </div>
-             </div>
-
-          </div>
-
-
-          <div className="swiper-slide">
-          
-           <div class="testimonials-card mb-3">
-          <div className='people-imge '>
-          <img className="imge-testinomels" alt="imge" src="https://fakeimg.pl/150x152/"/>
-</div>
- 
-  <div className="container-testimonels pt-3">
-    <h4 className='bottom-padding'><b>Mahesh</b></h4>
-    <p>We used My friend Info Solutions to build a custom calculator. Our experience from start to finish was excellent. The entire staff is very professional and knowledgeable. There was constant communication and updates throughout the project which made the entire process simple and facile. We would highly recommend My friend Info Solutions.
-</p>
-  </div>
-           </div>
-          </div>
-
-
-          
-          {/* Add more slides as needed */}
         </div>
-        <div className="swiper-pagination"></div>
       </div>
-      <div className="slider-controls">
-        <button className='btn-left' onClick={() => swiperRef.current.swiper.slidePrev()}>
-          <FcLeft/>
-        </button>
-        <button className='btn-left' onClick={() => swiperRef.current.swiper.slideNext()}>
-          <FcRight/>
-        </button>
-      </div>
-    </div>
-    </div>
-<div className='small-device-testi'>
-    <div className='samll-device-testimonels'>
-    <h5 className='text small-heading'>TESTIMONIALS
-   </h5>
-    <h1 className='text mb-5'>Their Words, Our Success: Client Testimonials
-                            </h1>
-   
-      
-    <Carousel>
-
-
-          
-           <div className='testi-container-cards m-3'>
-           <div>
-              <div className="testimonials-card">
-             <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
-              <div className="container-testimonels">
-              <h4 className=''> Sk Mamidipak</h4>
-          <p>I've been working with my friend Info solutions for the past two years to design and develop mobile applications for my clients. I am quite pleased with their services. They have outperformed my expectations. They have always been there, willing to assist us whenever we needed them. Our experience with Webcodegenie has been nothing short of extraordinary.</p></div>
-            </div>
-            </div>
-           </div>
-          
-          <div className='testi-container-cards m-3'>
-           <div>
-              <div className="testimonials-card">
-             <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
-              <div className="container-testimonels">
-              <h4 className=''><b>SoftTech</b></h4>
-              <p>Our firm had struggled a lot to rescue our software development process. Initially, we were resistant to outsourcing the entire project because of its complexity and Industry knowledge. After doing a meeting with the Project Manager at My Friend Info Solutions, we have decided to move the entire product development to them. Our SDLC was never managed this efficiently before.</p>
-              </div>
-            </div>
-            </div>
-           </div>
-
-
-           <div className='testi-container-cards m-3'>
-           <div>
-              <div className="testimonials-card">
-             <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
-              <div className="container-testimonels">
-              <h4 className=''><b>Swetha</b></h4>
-              <p>I'd like to say a few words about the My Friend Info Solutions crew. We've been working on small and large websites together, and they've all been developed with high quality and in a timely manner; I'm very pleased with the results of the projects we've been working on together. Their dedicated web developer was extremely knowledgeable, friendly, and communicative. Overall, the team was a pleasure to work with.</p>
-          </div>
-            </div>
-            </div>
-           </div>
-
-           
-           <div className='testi-container-cards m-3'>
-           <div>
-              <div className="testimonials-card">
-             <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
-              <div className="container-testimonels">
-              <h4 className=''><b>Mahesh</b></h4>
-              <p>My friend Info solutions is a top-notch team which employs a structured agile programming process in their development. Amazing people and helpful. The team is friendly and easy to work with and always produce a good project experience. Besides the team being great, they are fast and efficient, met my deadlines and produced a great final product. I would recommend My Friend Info Solutions to anyone that is looking for software development. </p>
-              </div>
-            </div>
-            </div>
-           </div>
-
-           
-           <div className='testi-container-cards m-5'>
-           <div>
-              <div className="testimonials-card">
-             <img  alt="imge" className='carosel-testi-img' src="https://fakeimg.pl/150x152/"/>
-              <div className="container-testimonels">
-              <h4 className=''><b>Mahesh</b></h4>
-              <p>My friend Info solutions is a top-notch team which employs a structured agile programming process in their development. Amazing people and helpful. The team is friendly and easy to work with and always produce a good project experience. Besides the team being great, they are fast and efficient, met my deadlines and produced a great final product. I would recommend My Friend Info Solutions to anyone that is looking for software development. </p>
-              </div>
-            </div>
-            </div>
-           </div>
-
-    </Carousel>
-    </div>
-  </div>
-    </div>
-    </>
+    </section>
   );
 };
 
-export default Testimonel;
+export default MyComponent;

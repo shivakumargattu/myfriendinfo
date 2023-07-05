@@ -42,8 +42,8 @@ const ContactUs = () => {
     <>
         <div className='conatactus'>
            <div>
-          <h5 className='small-heading'>GET IN TOUCH</h5>
-          <h1 className='text'>Consult With Our Experts Today!</h1>
+          
+          <h1 className='text'>Talk With Our Specialists Today!</h1>
           </div>
           
         <div className="form-container">

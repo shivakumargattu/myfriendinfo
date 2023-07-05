@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 const Protfolio = () => {
   return (
     <div className='ourservies-bg-contener' >
-    <h5 className='text small-heading'>Our Works</h5>
+  
     <h1 className='text'>Protfolio</h1>
    
     <div className=' client-card-cantener'>

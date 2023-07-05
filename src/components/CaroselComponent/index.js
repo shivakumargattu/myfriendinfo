@@ -19,7 +19,7 @@ function Carouseles() {
       <a href='/contactus'>     <button className='get-in-btn nobg-btn m-3 mt-0'>GET A FREE QUOTE </button></a>
             </div>
         </div>    
-        <div className="banner-imge-digital">
+        <div className="banner-imge-digital-imges">
         <img
           className=" imges-oreder "
           
@@ -49,7 +49,7 @@ Our digital marketing services make your company stand out in the fiercely compe
          
       </div>
   </div>    
-  <div className="banner-imge-digital">
+  <div className="banner-imge-digital-imges">
   <img
     className="  imges-oreder"
     src= "https://i.ibb.co/f2jK1Jh/image-2.png"  border="0"
@@ -76,7 +76,7 @@ Our digital marketing services make your company stand out in the fiercely compe
          
       </div>
   </div>    
-  <div className="banner-imge-digital">
+  <div className="banner-imge-digital-imges">
   <img
      className="  imges-oreder"
     src= "https://i.ibb.co/RcKT9d9/image-3.png"

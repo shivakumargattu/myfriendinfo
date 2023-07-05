@@ -121,7 +121,7 @@
     .sub-item-description-service{
       font-size: 15px;
       font-family: "";
-      font-weight: 400;
+      font-weight: 300;
       text-align: left;
       margin-left: 10px;
       color: black;
@@ -136,6 +136,7 @@
   border-radius: 5px; /* 5px rounded corners */
 padding: 10px;
 display: flex;
+flex-direction: column;
 justify-content: space-around;
 z-index: 999;
 margin-top: 0px;
@@ -146,6 +147,7 @@ right: 0;
 background-color: #fff;
 margin-top:50px;
 font-family: 'Rubik', sans-serif;
+
   
 
 }
@@ -367,5 +369,17 @@ font-family: 'Rubik', sans-serif;
         
         
     }
+
+}
+
+.active-conatiner:hover{
+    background-color: #87b0ee;
+    height: 50px;
+    width: 80%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 10px;
 
 }

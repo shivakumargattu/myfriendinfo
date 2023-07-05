@@ -13,10 +13,12 @@ const index = () => {
     <div>
         <div>
       <Carouseles/>
-      <Clients/>
-      <About/>
+      
+      
       <OurServices/>
-      <Process/>
+      <About/>
+      <Clients/>
+      {/*<Process/>*/}
       <Protfolio/>
         </div>
     </div>

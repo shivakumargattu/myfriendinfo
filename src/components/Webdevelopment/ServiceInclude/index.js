@@ -6,7 +6,7 @@ const Component1=()=>{
     <>
     <div className=''>
       <h4 className='pt-3'><b>Custom Web Development </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/web-developement/custom-web-development.svg?ver=20230620061009" alt="imge"/>
+      <img src="https://img.webcodegenie.com/img/services/web-developement/custom-web-development.svg?ver=20230620061009 " className='mb-3' alt="imge"/>
       <p className='service-incled-description'>
       Our experienced web developers specialize in rapid web application development using cutting-edge tools and technology. We take a client-centric approach to custom web development, ensuring that every project is tailored to your unique business needs. Our solutions are feature-rich, scalable, and fully customized to meet your requirements. We offer affordable pricing options to fit any budget, making it easier for small and medium-sized businesses to take advantage of our expertise.
       </p>

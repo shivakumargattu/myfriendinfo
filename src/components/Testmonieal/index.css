@@ -179,3 +179,13 @@ align-items: center;
   .carosel-testi-img{
     height: 40%;
   }
+
+  .gradient-custom {
+    background: transparent linear-gradient(58deg, #04427d 0%, #006bc0 100%) 0% 0% no-repeat padding-box;
+    
+ }
+  .carousel-indicators {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }

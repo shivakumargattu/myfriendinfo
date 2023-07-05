@@ -82,7 +82,7 @@ margin: 5px; }
     justify-content: space-around;
     
     flex-wrap: wrap;
-    background-color: #eee6e64a;
+    background-color: #fff;
   }
   
   .content-web{
@@ -176,4 +176,8 @@ margin: 5px; }
   justify-content:center ;
   align-items: center;
   flex-wrap: wrap;
+}
+.webdevelopment-text-content{
+  width: 50%;
+  text-align: left;
 }
