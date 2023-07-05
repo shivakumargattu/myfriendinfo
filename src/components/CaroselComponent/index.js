@@ -21,7 +21,7 @@ function Carouseles() {
         </div>    
         <div className="banner-imge-digital-imges">
         <img
-          className=" imges-oreder "
+          className=" imges-oreder w-100 "
           
            src="https://i.ibb.co/MNMVbbZ/image-1.png" alt="image-1" border="0"
         />
@@ -51,7 +51,7 @@ Our digital marketing services make your company stand out in the fiercely compe
   </div>    
   <div className="banner-imge-digital-imges">
   <img
-    className="  imges-oreder"
+    className="  imges-oreder w-100"
     src= "https://i.ibb.co/f2jK1Jh/image-2.png"  border="0"
     alt="First slide"
   />
@@ -78,7 +78,7 @@ Our digital marketing services make your company stand out in the fiercely compe
   </div>    
   <div className="banner-imge-digital-imges">
   <img
-     className="  imges-oreder"
+     className="  imges-oreder w-100"
     src= "https://i.ibb.co/RcKT9d9/image-3.png"
     alt="First slide"
   />
