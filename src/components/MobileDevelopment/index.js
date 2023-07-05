@@ -22,12 +22,18 @@ const MobileDevelopment = () => {
       
        <div className='content-web'>
          <img alt='web' className='webdesin-imge'  src="https://img.webcodegenie.com/img/services/mobile-app/mobile-app-development.webp?ver=20230615133940"/>
-         <h1>Mobile App Development Company</h1>
-         <p>Embark on an extraordinary digital voyage with our esteemed mobile app development company. We are passionate mobile app developers, dedicated to crafting exceptional mobile app development services. Seamlessly blending innovation and expertise, we breathe life into your app ideas, providing tailor-made solutions that propel your business forward. Partner with us and witness the magic of our mobile app development prowess. Let's create unparalleled mobile experiences together</p>
-       </div>
+        </div>
 
+
+       <div className='webdevelopment-text-content'>
+       <h1>Mobile App Development Company</h1>
+         <p>Embark on an extraordinary digital voyage with our esteemed mobile app development company. We are passionate mobile app developers, dedicated to crafting exceptional mobile app development services. Seamlessly blending innovation and expertise, we breathe life into your app ideas, providing tailor-made solutions that propel your business forward. Partner with us and witness the magic of our mobile app development prowess. Let's create unparalleled mobile experiences together</p>
+         <p>Our team of dedicated mobile app developers are true wizards, wielding cutting-edge technologies and boundless creativity. We are not just a company; we are artisans of mobile app development.
+
+</p>
+       </div>
       
-<div className='conatct-froms  shadow'>
+{/*<div className='conatct-froms  shadow'>
 <h4 className='p-5 pb-0'><b>Team Up with Our Mobile Developers</b></h4>
 <p>Let's Begin the Conversation <br/> - Get in Touch Today!</p>
 <form className="my-form">
@@ -51,6 +57,7 @@ const MobileDevelopment = () => {
 <button type="submit" className='get-in-btn nobg-btn'>Submit</button>
 </form> 
 </div>
+       */}
 
   </div>
 
@@ -58,9 +65,6 @@ const MobileDevelopment = () => {
 
 <div className=' p-5 new-comtainer  '>
 
-<div className='secondd-card-imge cardss'>
-<img alt="imge"  className='webdesin-imge' src='https://img.webcodegenie.com/img/services/mobile-app/mobile-apps.webp?ver=20230615133940'/>
-</div>
 <div className='content-web'>
 
     <h1> Transforming Visions With Mobile App Development</h1>
@@ -70,8 +74,15 @@ const MobileDevelopment = () => {
 <p>Our team of dedicated mobile app developers are true wizards, wielding cutting-edge technologies and boundless creativity. We are not just a company; we are artisans of mobile app development.
 
 </p>
+<p>From captivating designs to seamless functionality, our app development services are tailored to your unique needs. We pour our hearts into every line of code, ensuring a flawless user experience that reflects the essence of your brand.
+
+</p>
 
     </div>
+
+    <div className='secondd-card-imge cardss'>
+<img alt="imge"  className='webdesin-imge' src='https://img.webcodegenie.com/img/services/mobile-app/mobile-apps.webp?ver=20230615133940'/>
+</div>
 
 </div>
 

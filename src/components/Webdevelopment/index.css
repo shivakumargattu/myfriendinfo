@@ -92,6 +92,8 @@ margin: 5px; }
     justify-content: center;
     align-items: center;
   width: 500px;
+  transform: translateX(100%); /* Move the content down */
+  animation: slide-up1 1s forwards;
 
   }
   .service-include{

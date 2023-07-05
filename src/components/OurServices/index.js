@@ -10,7 +10,7 @@ const OurServices = () => {
    
     <div className=' servies-card-cantener'>
     <div class="ourservice-card">
-    <img alt='imge' className='webdevlopment-banner' src='https://img.freepik.com/free-vector/web-development-programmer-engineering-coding-website-augmented-reality-interface-screens-developer-project-engineer-programming-software-application-design-cartoon-illustration_107791-3863.jpg?t=st=1688449990~exp=1688450590~hmac=3c998485d85fca0277a1870aec88bde2965df80b5e2d270631c88cb4c0af234a'/>
+    <img alt='imge' className='webdevlopment-banner' src='https://amigainformatics.com/wp-content/uploads/2019/09/Web-mobile-development-banner-06.jpg'/>
   
   <div className="container">
     <h4><b>Web Development</b></h4>

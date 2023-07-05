@@ -6,7 +6,7 @@ const Component1=()=>{
     <>
     <div className=''>
       <h4 className='pt-3'><b>Website Testing Services</b></h4>
-      <img src="https://img.webcodegenie.com/img/services/qa/security-testing.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/qa/security-testing.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       Software testing offers numerous advantages that contribute to the success of your software development projects. By implementing thorough and professional testing practices, you can ensure the reliability, functionality, and performance of your software. QA testing helps identify and resolve bugs, compatibility issues, and usability problems, leading to enhanced customer satisfaction and loyalty. It also reduces costs by detecting issues early, minimizing rework and customer support expenses. Moreover, QA testing supports business efficiency, regulatory compliance, scalability, and innovation. By investing in QA testing, you gain a competitive advantage, protect your brand reputation, and achieve long-term cost savings.
 
@@ -55,7 +55,7 @@ const Component2=()=>{
        
        <div className=''>
       <h4 className='pt-3'><b>Mobile Application Testing </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/qa/mobile-app-testing.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/qa/mobile-app-testing.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       With expertise in mobile app testing, we ensure your mobile applications perform flawlessly across different devices, operating systems, and screen sizes. Our dedicated mobile app testing team verifies functionality, performance, usability, and compatibility, delivering a reliable and engaging mobile experience for your users.
 
@@ -90,7 +90,7 @@ const Component3=()=>{
 
  <div className=''>
       <h4 className='pt-3'><b>Functional Testing Services </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/qa/functional-testing.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/qa/functional-testing.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       Our software QA testing services encompass thorough functional testing, ensuring that your software meets all functional requirements. Our expert QA engineers meticulously verify each function and feature, identifying and resolving any functional issues to deliver a reliable and user-friendly software solution.
 
@@ -125,7 +125,7 @@ const Component4=()=>{
     <>    
  <div className=''>
       <h4 className='pt-3'><b>Regression Testing Services </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/qa/compatibility-testing.svg?ver=20230620061009" alt="imge"/>
+      <img  className='m-4' src="https://img.webcodegenie.com/img/services/qa/compatibility-testing.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       Our dedicated security testing team assesses your software for vulnerabilities, potential risks, and compliance with industry security standards. By conducting comprehensive penetration testing and vulnerability assessments, we fortify your software against cyber threats, protect sensitive data, and ensure the confidentiality and integrity of your system.
 
@@ -156,7 +156,7 @@ const Component5=()=>{
     <>    
  <div className=''>
       <h4 className='pt-3'><b>Performance Testing Services </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/qa/performance-testing.svg?ver=20230620061009" alt="imge"/>
+      <img  className='m-4' src="https://img.webcodegenie.com/img/services/qa/performance-testing.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       We conduct rigorous performance testing to evaluate the scalability, responsiveness, and stability of your software under varying loads. By simulating real-life scenarios, we identify performance bottlenecks, optimize system resources, and ensure your software can handle high traffic volumes, delivering a seamless user experience.
 
@@ -187,7 +187,7 @@ const Component6=()=>{
     <>    
  <div className=''>
       <h4 className='pt-3'><b>QA Outsourcing & Consultation </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/web-developement/website-consultation.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/web-developement/website-consultation.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       As a leading Software QA testing company with extensive expertise in providing web solutions across diverse industry domains, our skilled web developers are well-equipped to assist you with all your web-based needs through reliable website consultation. Whatever your requirements are, we deliver the best possible solutions. Our team of experts can help you identify the best tools and technologies to meet your business needs, and we offer flexible pricing options to fit any budget.
 

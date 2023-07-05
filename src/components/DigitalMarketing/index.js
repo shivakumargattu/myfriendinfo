@@ -21,13 +21,19 @@ const DigitalMarketing = () => {
       
        <div className='content-web '>
          <img alt='web' className='webdesin-imge'  src="https://img.webcodegenie.com/img/services/digital-marketing/digital-marketing-so-important.webp?ver=20230615133940"/>
-         <h1>Digital Marketing Agency</h1>
-         <p>We are a leading digital marketing agency that specializes in driving growth and delivering results. With our strategic approach, innovative solutions, and deep expertise, we help businesses thrive in the digital landscape. Harness the power of our data-driven strategies and unlock your brand's full potential. Let's elevate your online presence together.
-</p>
+       
        </div>
 
+
+<div className='webdevelopment-text-content'>
+
+<h1>Digital Marketing Agency</h1>
+         <p>We are a leading digital marketing agency that specializes in driving growth and delivering results. With our strategic approach, innovative solutions, and deep expertise, we help businesses thrive in the digital landscape. Harness the power of our data-driven strategies and unlock your brand's full potential. Let's elevate your online presence together.
+</p>
+<p>Through strategic planning, we harness the power of data-driven insights to develop tailored marketing solutions that resonate with your target market. From captivating content that tells your brand's unique story to impactful social media campaigns that spark conversations, we fuel your growth by creating meaningful connections.</p>
+</div>
       
-<div className='conatct-froms shadow'>
+{/*<div className='conatct-froms shadow'>
 <h4 className='p-5 pb-0'><b>Team Up with Our Digital Marketing<br/> Experts
 </b></h4>
 <p>Let's Begin the Conversation<br/> - Get in Touch Today!</p>
@@ -51,7 +57,7 @@ const DigitalMarketing = () => {
 
 <button type="submit" className='get-in-btn nobg-btn'>Submit</button>
 </form> 
-</div>
+</div>*/}
 
   </div>
 
@@ -59,9 +65,6 @@ const DigitalMarketing = () => {
 
 <div className=' p-5 webdevelopment-top-card'>
 
-      <div className='secondd-card-imge w-50 '>
-<img alt="imge" className='webdesin-imge' src='https://img.webcodegenie.com/img/services/digital-marketing/digital-marketing.webp?ver=20230615133940'/>
-      </div>
 
      <div className='content-web '>
 
@@ -75,6 +78,10 @@ Through strategic planning, we harness the power of data-driven insights to deve
 
 </p>
      </div>
+     
+     <div className='secondd-card-imge w-50 '>
+<img alt="imge" className='webdesin-imge' src='https://img.webcodegenie.com/img/services/digital-marketing/digital-marketing.webp?ver=20230615133940'/>
+      </div>
 
 </div>
 

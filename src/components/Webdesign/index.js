@@ -28,7 +28,10 @@ const Webdesign = () => {
        <h1>Web Design Company</h1>
          <p>Welcome to our extraordinary web design company, where digital dreams come to life! With our unparalleled creativity and expertise, we craft visually stunning and user-friendly websites that leave a lasting impression. Elevate your online presence with our captivating designs, tailored to showcase your brand's unique story and captivate your target audience. Experience the magic of seamless navigation, cutting-edge features, and responsive design, all meticulously crafted to drive conversions and exceed your expectations.
 </p>
+<p>With our team of skilled web designers, we meticulously sculpt pixel-perfect designs that seamlessly blend aesthetics and functionality. Our web designing services encompass every aspect of your online presence, from captivating visuals to intuitive user experiences.</p>
+    <p>Embrace the magic of our web design agency and let our web designers create a digital masterpiece that captivates your audience and elevates your brand's online presence.</p>
         </div>
+
       
 {/*<div className='conatct-froms shadow'>
 <h4 className='p-5 pb-0'><b>Consult Our Webdesign Developers</b></h4>
@@ -61,9 +64,6 @@ const Webdesign = () => {
 
 <div className=' p-5 web-second-card'>
 
-<div className='secondd-card-imge cardss'>
-<img alt="imge" className='webdesin-imge' src='https://img.webcodegenie.com/img/services/web-design/web-design.webp?ver=20230615133940'/>
-</div>
 <div className='content-web'>
 
     <h1> Elevate Your Business With Exceptional Web Design</h1>
@@ -78,6 +78,10 @@ At the heart of our enchanting creations lies a deep understanding of the intric
 </p>
 </div>
 
+ 
+<div className='secondd-card-imge cardss'>
+<img alt="imge" className='webdesin-imge' src='https://img.webcodegenie.com/img/services/web-design/web-design.webp?ver=20230615133940'/>
+</div>
 </div>
 
 {/* services include cards */}
@@ -99,25 +103,17 @@ At the heart of our enchanting creations lies a deep understanding of the intric
     <h5 className='text small-heading'>OUR TECHNOLOGIES</h5>
     <h1 className='text'>Web Design Technologies</h1>
   <div className='technoligies-card-cantener'>
+   
 
     <div className='img-conatener shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/Php.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>PHP</b></p>
-    </div>   
-
-    <div className='img-conatener shadow'>
-      <img  className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/Laravel.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>Laravel</b></p>
+      <img  className="imge-icons" src="https://img.webcodegenie.com/img/case-study/yatr/javascript.svg?ver=20230620061009" alt='imge'/>
+      <p className='mt-3'><b>JS</b></p>
     </div>  
+ 
 
     <div className='img-conatener shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/NodeJs.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>NodeJs</b></p>
-    </div>  
-
-    <div className='img-conatener shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/ExpressJs.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>ExpressJs</b></p>
+      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/Boostrap.svg?ver=20230620061009" alt='imge'/>
+      <p className='mt-3'><b>Boostrap</b></p>
     </div>   
     
     <div className='img-conatener shadow'>
@@ -136,26 +132,14 @@ At the heart of our enchanting creations lies a deep understanding of the intric
       <p className='mt-3'><b>SocketIo</b></p>
     </div> */}
 
+
     <div className='img-conatener shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/Lumen.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>Lumen</b></p>
+      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/Html.svg?ver=20230620061009" alt='imge'/>
+      <p className='mt-3'><b>HTML</b></p>
     </div> 
+   
 
-    <div className='img-conatener shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/Radis.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>Radis</b></p>
-    </div> 
-
-    <div className='img-conatener shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/mysql.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>Mysql</b></p>
-    </div>   
-
-
-    <div className='img-conatener border-conatiner shadow'>
-      <img className="imge-icons" src="https://img.webcodegenie.com/img/technology-use/MongoDB.svg?ver=20230608134812" alt='imge'/>
-      <p className='mt-3'><b>MongoDB</b></p>
-    </div>   
+ 
 
 
 

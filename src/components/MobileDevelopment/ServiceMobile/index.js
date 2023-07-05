@@ -6,7 +6,7 @@ const Component1=()=>{
     <>
     <div className=''>
       <h4 className='pt-3'><b>Native iOS App Development </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       As a leading mobile app development company, we specialize in providing native mobile app development services. Our team of experts leverages platform-specific features and functionalities to create high-quality, engaging, and optimized mobile experiences.
 
@@ -54,7 +54,7 @@ const Component2=()=>{
        
        <div className=''>
       <h4 className='pt-3'><b>Native Android App Development </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       We design mobile applications that function smoothly on various platforms, including iOS, Android, and Windows, using our cross-platform app development services. By leveraging frameworks like React Native and Flutter, we ensure consistent user experiences while minimizing development time and cost.
 
@@ -89,7 +89,7 @@ const Component3=()=>{
 
  <div className=''>
       <h4 className='pt-3'><b>Hybrid App Development</b></h4>
-      <img src="https://img.webcodegenie.com/img/services/mobile-app/app-testing-and-quality-assurance.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/mobile-app/app-testing-and-quality-assurance.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       We emphasize the importance of delivering high-quality mobile apps. Our dedicated QA team does rigorous testing at each stage of the development process to ensure optimal performance, usability, and compatibility across a wide range of devices and operating systems. By detecting and fixing issues early on, we deliver robust and bug-free mobile applications.
 
@@ -125,7 +125,7 @@ const Component4=()=>{
      
  <div className=''>
       <h4 className='pt-3'><b>Social App Development </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/mobile-app/app-performance-optimization.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/mobile-app/app-performance-optimization.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       To ensure your app's success, we focus on optimizing its performance. Our experts employ various techniques, including code optimization, caching, and network optimization, to enhance your app's speed, responsiveness, and efficiency. By providing a seamless and lightning-fast user experience, we maximize user satisfaction and retention.
 
@@ -161,7 +161,7 @@ const Component5=()=>{
  <div className=''>
       <h4 className='pt-3'><b>Business App Development
  </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/mobile-app/skilled-mobile-app-developers.svg?ver=20230620061009" alt="imge"/>
+      <img className='m-4' src="https://img.webcodegenie.com/img/services/mobile-app/skilled-mobile-app-developers.svg?ver=20230620061009" alt="imge"/>
       <p className='service-incled-description'>
       Our team of skilled mobile app developers has extensive experience in the industry. As a leading app development agency, we stay updated with the latest technologies and best practices, ensuring that your app is built using the most efficient and effective methods available. Trust us to deliver exceptional mobile app development solutions that drive your business forward.
 

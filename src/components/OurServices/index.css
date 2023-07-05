@@ -36,8 +36,8 @@
     border-color: #b9b8b8;
     border-style: solid;
     border-width: 1px;
-
-  
+    animation: slide-up 1s forwards;
+    height: 700px;
   }
   
 
@@ -61,9 +61,10 @@
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 22px;
+    
 
     margin-top: 25px;
-
+    animation: slide-up 2s forwards;
   }
   .client-card-cantener{
    

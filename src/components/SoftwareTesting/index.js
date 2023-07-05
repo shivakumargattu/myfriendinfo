@@ -22,14 +22,18 @@ const SoftwareTesting = () => {
       
        <div className='content-web '>
          <img alt='web' className='webdesin-imge '  src="https://img.webcodegenie.com/img/services/qa/qa-testing.webp?ver=20230615133940"/>
-         <h1>Software QA Testing Company</h1>
-         <p>Delivering excellence in software testing services, we are your trusted QA testing company for ensuring flawless digital experiences. With our meticulous approach, we identify even the most elusive bugs, guaranteeing a seamless and reliable product. Our experienced team combines manual and automated testing methods, leveraging cutting-edge technologies to accelerate your time to market. From functional testing to performance and security testing, we cover every aspect to deliver top-tier software quality assurance services.
-
-</p>
+        
        </div>
 
+
+       <div className='webdevelopment-text-content'>
+       <h1>Software QA Testing Company</h1>
+         <p>Delivering excellence in software testing services, we are your trusted QA testing company for ensuring flawless digital experiences. With our meticulous approach, we identify even the most elusive bugs, guaranteeing a seamless and reliable product. Our experienced team combines manual and automated testing methods, leveraging cutting-edge technologies to accelerate your time to market. From functional testing to performance and security testing, we cover every aspect to deliver top-tier software quality assurance services.
+</p>
+<p>From functional testing enchantments to performance and security wizardry, we cover every aspect to empower your software. Our potions of automated testing accelerate your time to market, while our mobile app testing and usability charms enhance the user experience. With regression sorcery, we safeguard against any unforeseen regressions, maintaining the stability of your software.</p>
+       </div>
       
-<div className='conatct-froms  shadow'>
+{/*<div className='conatct-froms  shadow'>
 <h4 className='p-5 pb-0'><b>Enhancing Software Excellence<br/> QA Testing
 </b></h4>
 <p>Let's Begin the Conversation - Get in Touch Today!</p>
@@ -53,15 +57,13 @@ const SoftwareTesting = () => {
 
 <button type="submit" className='get-in-btn nobg-btn'>Submit</button>
 </form> 
-</div>
+</div>*/}
 
   </div>
 
 {/* second componets */}
 <div className='second-content-componet'>
-<div className='imge-conainer-testing' >
-<img alt="imge" className='webdesin-imge ' src='https://img.webcodegenie.com/img/services/qa/software-qa-testing.webp?ver=20230615133940'/>
-</div>
+
 
 <div className='content-web'>
 
@@ -73,6 +75,12 @@ const SoftwareTesting = () => {
 </p>
 
 </div>
+ 
+ 
+<div className='imge-conainer-testing' >
+<img alt="imge" className='webdesin-imge ' src='https://img.webcodegenie.com/img/services/qa/software-qa-testing.webp?ver=20230615133940'/>
+</div>
+
 </div>
 
 {/* services include cards */}

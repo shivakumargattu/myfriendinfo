@@ -58,4 +58,5 @@ font-family: 'Rubik', sans-serif;
 }
 .about-imge-con{
     width: 50%;
+    background-size: cover;
 }
