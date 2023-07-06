@@ -29,20 +29,20 @@
     width: 40px;
     background-color: orange;
   }
-  .process-card {
+  /*.process-card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(238, 239, 242, 0.578);
+  //*  box-shadow: 0 4px 8px 0 rgba(238, 239, 242, 0.578);
     color: #fff;
     transition: 0.3s;
-    height: 300px;
-    width: 350px;
+    height: 320px;
+    max-width: 220px;
     min-width: 100px;
-    margin:0px ;
+    margin:4px ;
     background-color:navy;
     border-radius: 8px;
     padding: 10px;
 
-  }
+  }*
 
   .process-card:hover{
     background-color:rgb(240, 182, 75);
@@ -89,7 +89,7 @@
 
   }
   
-  .deceripon-slider{
+  /*.deceripon-slider{
     max-width: 700px;
   
     font-size: medium;
@@ -98,7 +98,11 @@
   @media screen and (max-width:557px) {
     .process-card {
       overflow-y: scroll;
-      width: 700px;
+      width: 400px;
 
     }
+  }*/
+  .process-card:hover{
+    background: color #1d52a3;
+    cursor: pointer;
   }

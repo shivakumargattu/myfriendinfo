@@ -50,7 +50,7 @@ const OurServices = () => {
   <img  className='webdevlopment-banner' src="https://www.esspl.com/wp-content/uploads/2020/01/automation-testing-company-thegem-blog-default.jpg" alt="imge"/>
   <div className="container pt-3">
     <h4><b>SoftWare Testing</b></h4>
-    <p>Empowering your digital success with our expert software testing services - seamless performance, exceptional user experience,Software testing is a crucial process in the development of software applications to ensure their quality, functionality, and reliability. It involves evaluating and validating software components and systems to identify defects, bugs, and potential issues that may impact the user experience or the performance of the software. The primary goal of software testing is to uncover problems and provide feedback to developers.				        </p>
+    <p>Empowering your digital success with our expert software testing services - seamless performance, exceptional user experience,Software testing is a crucial process in the development of software applications to ensure their quality, functionality, and reliability. It involves evaluating and validating software components and systems to identify defects, bugs, and potential issues that may impact the user experience or the performance of the software. </p>
   </div>
   </div>
 

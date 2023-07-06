@@ -1,16 +1,18 @@
 import React,{useState} from 'react'
 import { Link } from 'react-router-dom'
 import {BsCodeSquare} from "react-icons/bs"
-import {FaLaptopCode ,FaDigitalTachograph,} from "react-icons/fa"
+import {BiLogoPhp} from "react-icons/bi"
+import {FaLaptopCode,FaAngular,FaReact,FaAppStoreIos,FaPhp,FaSwift,FaNodeJs ,FaLaravel,FaDigitalTachograph,} from "react-icons/fa"
 import {CiMobile2} from "react-icons/ci"
 import {AiOutlineFileSearch,AiFillProfile,AiOutlineRight} from "react-icons/ai"
 import {RiCustomerService2Line} from "react-icons/ri"
 import {FaBars} from "react-icons/fa"
-
+import {SiJavascript,SiMongodb,SiBackbonedotjs,SiCakephp,SiRedis,SiWordpress,SiFlutter,SiExpress} from "react-icons/si"
 import {TfiWrite} from "react-icons/tfi"
-import {FcAbout} from "react-icons/fc"
+import {FcAbout,FcAndroidOs} from "react-icons/fc"
 import {MdOutlineWorkOutline,MdOutlineCelebration} from "react-icons/md"
 import {RxCross2} from "react-icons/rx"
+import {TbBrandReactNative,TbBrandMysql} from "react-icons/tb"
 
 
 import "./index.css"
@@ -84,12 +86,14 @@ const companySmallDiveces=()=>{
 
         </li>  
         
-        <li  className= "list active" onMouseEnter={toggleDropdown1} onMouseLeave={toggleDropdown1} >
-        
-        
+        <li  className= "list active" onMouseEnter={toggleDropdown1} onMouseLeave={toggleDropdown1} > 
         TECHNOLOGY
         {showDropdown1 && <Technologies/>}
       </li>
+      <li className= "list active">
+      INDUSTRIES
+      </li>
+      
 
         <li className= "list active"onMouseEnter={toggleDropdown2} onMouseLeave={toggleDropdown2}>
         
@@ -109,7 +113,7 @@ const companySmallDiveces=()=>{
         BLOGS
         </Link>
         </li>
-
+        
       </ul>
       
       <div className='getin-btn'>
@@ -121,10 +125,6 @@ const companySmallDiveces=()=>{
          </nav>
     </div>
 
-
-
-
-     
 
 
       <div >
@@ -312,13 +312,13 @@ const Services = () => {
 
                <div className= 'item d-flex '>
                   <div className='d-flex'>
-                    <BsCodeSquare className='icon'/>
+                    <img src="https://img.webcodegenie.com/img/header/tech-frontend.svg?ver=20230705113813"  alt="adv" className='icon'/>
                     <div>
-                 <h1  className='tech-sub-heading mb-3'>Frontend</h1> 
-                 <Link to='/angular' className='text-decoret'> <p className='tech-sub-description active'>Angular</p></Link>
-                 <Link to="/reactjs" className='text-decoret'>     <p className='tech-sub-description active'>ReactJs</p></Link>
-                 <Link to="/javascript" className='text-decoret'> <p className='tech-sub-description active'>JavaScript</p></Link>
-                 <Link to="/backbonejs" className='text-decoret'>    <p className='tech-sub-description active'>Backbone Js</p></Link>
+                 <h1  className='tech-sub-heading mb-4'>Frontend</h1> 
+                 <Link to='/angular' className='text-decoret'> <p className='tech-sub-description active'> <FaAngular color='red' size={25}/> Angular </p></Link>
+                 <Link to="/reactjs" className='text-decoret'>     <p className='tech-sub-description active'><FaReact color='slateblue' className='icons-space' size={26}/>ReactJs</p></Link>
+                 <Link to="/javascript" className='text-decoret'> <p className='tech-sub-description active'> <SiJavascript color='yellow' className='icons-space' size={26}/> JavaScript</p></Link>
+                 <Link to="/backbonejs" className='text-decoret'>    <p className='tech-sub-description active'> <SiBackbonedotjs color='' className='icons-space' size={26}/>Backbone Js</p></Link>
                      </div>
                  </div>
                 </div>
@@ -327,14 +327,14 @@ const Services = () => {
 
          <div className= 'item d-flex '>
                   <div className='d-flex'>
-                    <BsCodeSquare className='icon'/>
+                    <img src="https://img.webcodegenie.com/img/header/tech-backend.svg?ver=20230705113813"  alt="iwhd" className='icon'/>
                     <div>
-                      <h1  className='tech-sub-heading mb-3'>Backend</h1>
-                      <p className='tech-sub-description active'>PHP</p>
-                      <p className='tech-sub-description active'>NodeJs</p>
-                      <p className='tech-sub-description active'>Laravel</p>
-                      <p className='tech-sub-description active'>CackePHP</p>
-                      <p className='tech-sub-description active'>Express</p>
+                      <h1  className='tech-sub-heading mb-4'>Backend</h1>
+                      <p className='tech-sub-description active'><FaPhp color='' className='icons-space' size={26}/>PHP</p>
+                      <p className='tech-sub-description active'><FaNodeJs color='green' className='icons-space' size={26}/> NodeJs</p>
+                      <p className='tech-sub-description active'><FaLaravel color='red' className='icons-space' size={26}/> Laravel</p>
+                      <p className='tech-sub-description w-100 active'><SiCakephp color='red' className='icons-space' size={16}/> CackePHP</p>
+                      <p className='tech-sub-description active'><SiExpress color='green' className='icons-space' /> Express</p>
                      </div>
                  </div>
                 </div>
@@ -343,14 +343,14 @@ const Services = () => {
           
           <div className= 'item d-flex '>
                   <div className='d-flex'>
-                    <BsCodeSquare className='icon'/>
+                    <img src="https://img.webcodegenie.com/img/header/tech-mobile.svg?ver=20230705113813" alt="imh" className='icon'/>
                     <div>
-                      <h1  className='tech-sub-heading mb-3'>Mobile App</h1>
-                      <p className='tech-sub-description active'>Android</p>
-                      <p className='tech-sub-description active'>iOS</p>
-                      <p className='tech-sub-description active'>ReactNative</p>
-                      <p className='tech-sub-description active'>Flutter</p>
-                      <p className='tech-sub-description active'>Swift</p>
+                      <h1  className='tech-sub-heading w-100 mb-4'>Mobile App</h1>
+                      <p className='tech-sub-description active'> <FcAndroidOs color='green' size={25} className='icons-space' /> Android</p>
+                      <p className='tech-sub-description active'> <FaAppStoreIos color='blue' size={25} className='icons-space' /> iOS</p>
+                      <p className='tech-sub-description w-100 active'> <TbBrandReactNative color='#00ffff' size={16} className='icons-space' /> ReactNative</p>
+                      <p className='tech-sub-description active'><SiFlutter color='#b74093' size={23} className='icons-space' /> Flutter</p>
+                      <p className='tech-sub-description active'><FaSwift color='orange' size={25} className='icons-space' /> Swift</p>
                      </div>
                  </div>
                 </div>
@@ -360,12 +360,13 @@ const Services = () => {
               <div className= 'item d-flex '>
                    <div>
                      <div className='d-flex'>
-                       <BsCodeSquare className='icon'/>
+                     <img src="https://img.webcodegenie.com/img/header/tech-db.svg?ver=20230705113813" alt="imdh" className='icon'/>
+                     
                        <div>
-                        <h1  className='tech-sub-heading mb-3'>Database</h1>
-                        <p className='tech-sub-description active'>MySQL</p>
-                        <p className='tech-sub-description active'>MongoDB</p>
-                        <p className='tech-sub-description active'>Redis</p>
+                        <h1  className='tech-sub-heading mb-4'>  Database</h1>
+                        <p className='tech-sub-description active'> <TbBrandMysql color='green' size={25} className='icons-space' /> MySQL</p>
+                        <p className='tech-sub-description w-100 active'>  <SiMongodb color='green' size={22} className='icons-space' /> MongoDB</p>
+                        <p className='tech-sub-description active'> <SiRedis color='#A41E11' size={25} className='icons-space' /> Redis</p>
                        </div>
                      </div>
                     </div>
@@ -374,10 +375,11 @@ const Services = () => {
                <div className= 'item d-flex '>
                    <div>
                      <div className='d-flex'>
-                       <BsCodeSquare className='icon'/>
+                     <img src="https://img.webcodegenie.com/img/header/tech-cms.svg?ver=20230705113813" alt="imh" className='icon'/>
+                      
                        <div>
                         <h1  className='tech-sub-heading mb-3'>CMS</h1>
-                        <p className='tech-sub-description active'>Wordpress</p>
+                        <p className='tech-sub-description w-100 ml-0 mb-0 mt-0 m-1 active'> <SiWordpress color='444c38'  className='icons-space' /> Wordpress</p>
                        </div>
                      </div>
                     </div>
