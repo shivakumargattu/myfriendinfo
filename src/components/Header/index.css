@@ -5,8 +5,9 @@
     height: 80px;
     width: 100%;
 
-    background-color:#FFF;
-    color: black;
+    background: transparent linear-gradient(50deg,#fff 23%,  #006bc0 30%, #044785 100%) 0% 0% no-repeat padding-box;
+   
+    color: #fff;;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -89,7 +90,7 @@
         color:#fff;
         font-weight: 600;
     height: 49px;
-    background-color:#0d47a1	;     
+    background-color:orange	;     
     font-family: 'Rubik', sans-serif;
     
     }
@@ -306,7 +307,7 @@ font-family: 'Rubik', sans-serif;
 }
     
 .blog-text-heading{
-    color: black;
+    color: #fff;
     list-style-type: none;
     text-decoration: none;
     font-family: 'Rubik', sans-serif;

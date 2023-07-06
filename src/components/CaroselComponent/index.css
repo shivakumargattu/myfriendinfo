@@ -5,7 +5,8 @@
   margin-top: 82px;
   padding-top: 10px;
   padding-bottom: 50px;
-  background-color:  #fdebeb;
+  background: transparent linear-gradient(50deg,nav 23%, #035bad , orange ) 0% 0% no-repeat padding-box;
+   
 border-radius: 90px;
 font-family: "Rubik, sans-serif" ;
 }
@@ -18,7 +19,7 @@ font-family: "Rubik, sans-serif" ;
     font-family: 'Rubik', sans-serif;
     font-size: 4rem;
     
-      -webkit-text-stroke: 2px #ff8727;
+      -webkit-text-stroke: 2px orange;
       color: transparent;
   display: inline;font-weight: 900;
   width: 120%;
@@ -36,7 +37,7 @@ font-family: "Rubik, sans-serif" ;
     font-size: 2.5rem;
     font-weight: 800;
     line-height: 1.25;
-    color: #04427d;
+    color: #0757a1;
 
 }
 .app-develop-main-heading{
@@ -53,7 +54,7 @@ width: 140%;
   }
   
   .slick-dots li.slick-active button:before {
-    color: orange;
+    color: rgb(60, 0, 255);
   }
   
   .background-card{

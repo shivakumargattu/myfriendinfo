@@ -226,16 +226,17 @@ const Component6=()=>{
 
 
 const FirstCard = ({ components, handleButtonClick }) => {
-  const buttons = ['Custom Web Development', 'REST API development', 'API Integration Services', 'Microservices Consultation '  ,"AI/ML Integration Services","Open Source Framework Expert"];
+  const buttons = [{ Name:'Custom Web Development',imgeurl:"shiva"}, {Name:'REST API development',imgeurl:"advait"}, {Name:'API Integration Services',imgeurl:""},{Name: 'Microservices Consultation ',imgeurl:""}  ,{Name:"AI/ML Integration Services",imgeurl:""},{Name:"Open Source Framework Expert",imgeurl:""}];
 
   return (
     
     <div className='second-card-cainter background-color-testing  shadow w-55'>
     
       {buttons.map((button, index) => (
-        <h6 className='p-3' key={index} onClick={() => handleButtonClick(index)}>
-        <b>  {button}</b>
-        </h6>
+        <div className='' key={index} onClick={() => handleButtonClick(index)}>
+        <b>  {button.Name}</b>
+        <b3>{button.imgeurl}</b3>
+        </div>
       ))}
     </div>
     

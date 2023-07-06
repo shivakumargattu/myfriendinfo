@@ -20,8 +20,7 @@ const Webdevlopment = () => {
                  <div className='webdevelopment-text-content'>
                  <h1>Web Development Company</h1>
                  <p>We are the leading and most trustable web development company specializing in Custom Web Development services. Our expertise and experience in developing web-based solutions will revolutionize your business, thereby establishing your brand identity.</p>
-               <p>Set out on a computerized venture like no other with My Friend Info Solutions, where creative mind meets reality. Our web improvement organization is filled by an energy for making phenomenal internet based encounters. We weave enchantment through charming plans, consistent usefulness, and future-confirmation arrangements that sling your business higher than ever. We should cooperate to make your computerized desires a reality.
-</p>
+               <p>Set out on a computerized venture like no other with My Friend Info Solutions, where creative mind meets reality. Our web improvement organization is filled by an energy for making phenomenal internet based encounters. We weave enchantment through charming plans, consistent usefulness, and future-confirmation arrangements that sling your business higher than ever. We should cooperate to make your computerized desires a reality.</p>
                  </div>
 
               
