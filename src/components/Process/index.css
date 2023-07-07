@@ -38,14 +38,15 @@
 .process-card-items {
     /* Add shadows to create the "card" effect */
     box-shadow: 0 4px 8px 0 rgba(238, 239, 242, 0.578);
-    color: #fff;
+    color:black;
     transition: 0.3s;
     height: 328px;
     width: 200px;
     min-width: 180px;
     max-width: 380px;
     margin:2px ;
-    background: #1d52a3;
+    border-style: solid;
+    border-width: 1px;
     
     
     border-radius: 8px;
@@ -91,4 +92,8 @@
     flex-wrap: wrap;
     
 
+  }
+  .process-imges{
+    height: 50px;
+    width: 50px;
   }
