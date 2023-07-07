@@ -2,12 +2,12 @@
   font-family: 'Rubik', sans-serif;
 }
 .bg-carosuel{
-  margin-top: 82px;
+  margin-top: 80px;
   padding-top: 10px;
   padding-bottom: 50px;
   background: transparent linear-gradient(b ) 0% 100% no-repeat padding-box;
    
-border-radius: 90px;
+border-radius: 0px;
 font-family: "Rubik, sans-serif" ;
 background: transparent linear-gradient(rgb(121, 193, 248),rgb(38, 102, 172),rgb(14, 123, 240));
 }
