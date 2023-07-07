@@ -42,3 +42,11 @@ font-family: 'Rubik', sans-serif;
     font-family: 'Rubik', sans-serif;
 
 }
+
+.digital-marketing-service{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+    flex: 6;
+}

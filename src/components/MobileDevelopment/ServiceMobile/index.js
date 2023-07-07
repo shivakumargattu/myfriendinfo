@@ -194,14 +194,17 @@ const Component5=()=>{
 
 
 const FirstCard = ({ components, handleButtonClick }) => {
-  const buttons = ['Native iOS App Development', 'Native Android App Development  ', 'Hybrid App Development ',"Social App Development" ,"  Business App Development  "];
+  const buttons = [{Name:' Native iOS App Development',imgeurl:"https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009"}, {Name:'Native Android App Development  ',imgeurl:"https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009"},{Name: 'Hybrid App Development ',imgeurl:"https://img.webcodegenie.com/img/services/mobile-app/app-testing-and-quality-assurance.svg?ver=20230620061009"},{Name:"Social App Development",imgeurl:"https://img.webcodegenie.com/img/services/mobile-app/app-performance-optimization.svg?ver=20230620061009"} ,{Name:"  Business App Development",imgeurl:"https://img.webcodegenie.com/img/services/mobile-app/skilled-mobile-app-developers.svg?ver=20230620061009"}];
 
   return (
     <div className='constamized-components shadow w-50'>
       {buttons.map((button, index) => (
-        <h6 className='p-3' key={index} onClick={() => handleButtonClick(index)}>
-        <b>  {button}</b>
-        </h6>
+        <div className='webdesing-includes-content' key={index} onClick={() => handleButtonClick(index)}>
+        <b3><img src={button.imgeurl} className='servic-include-imges m-2' alt="imge"/> </b3>
+        <b className='m-3'>   {button.Name}</b>
+        
+       
+        </div>
       ))}
     </div>
   );

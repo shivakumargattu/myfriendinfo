@@ -226,16 +226,17 @@ const Component6=()=>{
 
 
 const FirstCard = ({ components, handleButtonClick }) => {
-  const buttons = [{ Name:'Custom Web Development',imgeurl:"shiva"}, {Name:'REST API development',imgeurl:"advait"}, {Name:'API Integration Services',imgeurl:""},{Name: 'Microservices Consultation ',imgeurl:""}  ,{Name:"AI/ML Integration Services",imgeurl:""},{Name:"Open Source Framework Expert",imgeurl:""}];
+  const buttons = [{ Name:'Custom Web Development',imgeurl:"https://img.webcodegenie.com/img/services/web-developement/custom-web-development.svg?ver=20230620061009"}, {Name:'REST API development',imgeurl:"https://img.webcodegenie.com/img/services/web-developement/api-development.svg?ver=20230620061009"}, {Name:'API Integration Services',imgeurl:"https://img.webcodegenie.com/img/services/web-developement/seamless-integration.svg?ver=20230620061009"},  ,{Name:" AI/ML Integration Services",imgeurl:"https://img.webcodegenie.com/img/services/iot/seamless-device-integration.svg?ver=20230620061009"} ,{Name:"Open Source Framework Expert",imgeurl:"https://img.webcodegenie.com/img/services/web-developement/website-consultation.svg?ver=20230620061009"}];
 
   return (
     
     <div className='second-card-cainter background-color-testing  shadow w-55'>
     
       {buttons.map((button, index) => (
-        <div className='' key={index} onClick={() => handleButtonClick(index)}>
+        <div className='service-includes-content' key={index} onClick={() => handleButtonClick(index)}>
+        <b3><img src={button.imgeurl} className='servic-include-imges' alt="imge"/> </b3>
         <b>  {button.Name}</b>
-        <b3>{button.imgeurl}</b3>
+        
         </div>
       ))}
     </div>

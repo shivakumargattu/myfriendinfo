@@ -216,14 +216,16 @@ const Component6=()=>{
 
 
 const FirstCard = ({ components, handleButtonClick }) => {
-  const buttons = ['Website Testing Services', ' Mobile Application Testing', ' Functional Testing Services', 'Regression Testing Services ',"Performance Testing Services","QA Outsourcing & Consultation" ];
+  const buttons = [{Name:'Website Testing Services',imgeurl:"https://img.webcodegenie.com/img/services/qa/security-testing.svg?ver=20230620061009"},{Name: ' Mobile Application Testing',imgeurl:"https://img.webcodegenie.com/img/services/qa/mobile-app-testing.svg?ver=20230620061009"}, {Name:' Functional Testing Services',imgeurl:"https://img.webcodegenie.com/img/services/qa/functional-testing.svg?ver=20230620061009"}, {Name:'Regression Testing Services ',imgeurl:"https://img.webcodegenie.com/img/services/qa/compatibility-testing.svg?ver=20230620061009"},{Name:"Performance Testing Services",imgeurl:"https://img.webcodegenie.com/img/services/qa/performance-testing.svg?ver=20230620061009"},{Name:"QA Outsourcing & Consultation",imgeurl:"https://img.webcodegenie.com/img/services/web-developement/website-consultation.svg?ver=20230620061009"} ];
 
   return (
     <div className='constamized-components shadow w-50'>
       {buttons.map((button, index) => (
-        <h6 className='p-3' key={index} onClick={() => handleButtonClick(index)}>
-        <b>  {button}</b>
-        </h6>
+        <div className='webdesing-includes-content' key={index} onClick={() => handleButtonClick(index)}>
+        <b3><img src={button.imgeurl} className='servic-include-imges ' alt="imge"/> </b3>
+        <b className='mt-4 p-2'>   {button.Name}</b>
+        
+        </div>
       ))}
     </div>
   );

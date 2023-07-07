@@ -108,7 +108,7 @@ const Component3=()=>{
 
  <div className=''>
       <h4 className='pt-3'><b>Web Application Design </b></h4>
-      <img src="https://img.webcodegenie.com/img/services/mobile-app/seamless-integration-with-existing-systems.svg?ver=20230620061009" className='m-3' alt="imge"/>
+      <img src="https://cdn-icons-png.flaticon.com/512/2721/2721291.png " className=' webdesing-includes-imges m-3' alt="imge"/>
       <p className='service-incled-description'>
       Our experienced web developers specialize in rapid web application development using cutting-edge tools and technology. We take a client-centric approach to custom web development, ensuring that every project is tailored to your unique business needs. Our solutions are feature-rich, scalable, and fully customized to meet your requirements. We offer affordable pricing options to fit any budget, making it easier for small and medium-sized businesses to take advantage of our expertise.
 
@@ -205,15 +205,17 @@ const Component4=()=>{
 
 
 const FirstCard = ({ components, handleButtonClick }) => {
-  const buttons = ['UI/UX Web Design', ' Mobile Application Design', 'Web Application Design', 'Responsive Design ' ];
+  const buttons = [{Name:'UI/UX Web Design',imgeurl:"https://img.webcodegenie.com/img/services/web-design/custom-web-design.svg?ver=20230620061009"}, {Name:' Mobile Application Design',imgeurl:"https://img.webcodegenie.com/img/services/mobile-app/native-mobile-app-development.svg?ver=20230620061009"}, {Name:'Web Application Design',imgeurl:"https://cdn-icons-png.flaticon.com/512/2721/2721291.png"}, {Name:'Responsive Design ',imgeurl:"https://cdn-icons-png.flaticon.com/512/8488/8488732.png"} ];
 
   return (
     <div className='constamized-components shadow w-50'>
       {buttons.map((button, index) => (
-        <h6 className='p-3' key={index} onClick={() => handleButtonClick(index)}>
-        <b>  {button}</b>
-        </h6>
-      ))}
+        <div className='webdesing-includes-content' key={index} onClick={() => handleButtonClick(index)}>
+        <b3><img src={button.imgeurl} className='servic-include-imges m-3' alt="imge"/> </b3>
+        <b className='m-4'>   {button.Name}</b>
+        
+        </div>
+           ))}
     </div>
   );
 };

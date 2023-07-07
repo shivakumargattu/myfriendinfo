@@ -31,6 +31,7 @@ const Header = () => {
   const [showDropdown1, setShowDropdown1] = useState(false);
   const [showDropdown2, setShowDropdown2] = useState(false);
   const [showDropdown3, setShowDropdown3] = useState(false);
+  const [showDropdown4, setShowDropdown4] = useState(false);
 
 
   const toggleDropdown1 = () => {
@@ -46,6 +47,10 @@ const Header = () => {
   
     const toggleDropdown3 = () => {
       setShowDropdown3(!showDropdown3);
+    }
+  
+    const toggleDropdown4 = () => {
+      setShowDropdown4(!showDropdown4);
     }
   
 const showManu=()=>{
@@ -90,8 +95,9 @@ const companySmallDiveces=()=>{
         TECHNOLOGY
         {showDropdown1 && <Technologies/>}
       </li>
-      <li className= "list active">
+      <li className= "list active" onMouseEnter={toggleDropdown4} onMouseLeave={toggleDropdown4}>
       INDUSTRIES
+      {showDropdown4 && <Industries/>}
       </li>
       
 
@@ -394,6 +400,53 @@ const Services = () => {
   )
  }
 
+ //* industries *//
+const Industries=()=>{
+  return(
+    <div className='indutries-card'>  
+
+         <div className= 'item d-flex'>
+           <img alt="imge" src="https://cdn-icons-png.flaticon.com/512/901/901002.png" className='icon'/>
+           <div>
+             <h1 className='resourse-sub-heading active'>Information Technologie</h1>    
+           </div>
+         </div>
+
+         <div className= 'item d-flex'>
+           <img src="https://cdn-icons-png.flaticon.com/512/4521/4521119.png" alt="imge" className='icon'/>
+           <div>
+             <h1 className='resourse-sub-heading active'>Retail & E-commerce</h1>    
+           </div>
+         </div>
+
+         <div className= 'item d-flex'>
+           <img src="https://cdn-icons-png.flaticon.com/512/1968/1968666.png" alt="social" className='icon'/>
+           <div>
+             <h1 className='resourse-sub-heading active'>Social & NetWorking</h1>    
+           </div>
+         </div>
+
+         <div className= 'item d-flex'>
+           <img src="https://cdn-icons-png.flaticon.com/512/924/924879.png" alt="banking" className='icon'/>
+           <div>
+             <h1 className='resourse-sub-heading active'>Banking & Finance</h1>    
+           </div>
+         </div>
+
+
+         <div className= 'item d-flex'>
+           <img src="https://cdn-icons-png.flaticon.com/512/808/808476.png" alt="game" className='icon'/>
+           <div>
+             <h1 className='resourse-sub-heading active'>Gaming & Enterteainment</h1>    
+           </div>
+         </div>
+
+
+
+
+    </div>
+  )
+}
 
 /////* Company  card Componet *////
 
@@ -406,7 +459,7 @@ const Services = () => {
      <div>
 
      <div className= 'item d-flex'>
-      <FcAbout className='icon'/>
+      <img src="https://cdn-icons-png.flaticon.com/512/9195/9195785.png" alt="abot" className='icon'/>
         <div>
    <Link to="/aboutus" className='blog-text-heading active'>      <h1 className='resourse-sub-heading  active'>About us</h1> </Link>
              <p className='resourse-description'> 
@@ -418,12 +471,12 @@ Our collaborative approach ensures a seamless and successful digital journey for
 </div>
 
 <div className= 'item d-flex'>
-  <MdOutlineWorkOutline className='icon'/>
+  <img src="https://cdn-icons-png.flaticon.com/512/1589/1589592.png" alt="career" className='icon'/>
    <div>
  <Link to="/career" className='blog-text-heading active'>  <h1 className='resourse-sub-heading active'>Careers</h1></Link>
     <p className='resourse-description'> 
     
-Take your career to the next level and join us on the forefront of digital innovation.</p>
+Take your career to the next level and join us on the front of digital innovation.</p>
    </div>
 </div>
 </div>  
@@ -431,7 +484,7 @@ Take your career to the next level and join us on the forefront of digital innov
 
 
 <div className= 'item d-flex'>
-  <RiCustomerService2Line className='icon'/>
+  <img src="https://cdn4.iconfinder.com/data/icons/business-conceptual-part1-1/513/calling-512.png" alt="imge" className='icon'/>
    <div>
  <Link to="/contactus" className='blog-text-heading active'>  <h1 className='resourse-sub-heading active'>Contact us</h1> </Link>
     <p className='resourse-description'> 
@@ -459,17 +512,17 @@ Let's start a conversation about how we can bring your digital vision to life - 
      <div  >
 
      <div className= 'item d-flex'>
-      <AiFillProfile className='icon'/>
+      <img src="https://global-uploads.webflow.com/5ad79663a6722aa4d3d6a3cd/5ad79663a6722a8342d6ace2_Best%20Tool%20Bag.svg"  atl="proy" className='icon'/>
         <div>
        <Link to="/portfolio" className='blog-text-heading active'>  <h1 className='resourse-sub-heading active'>Portfolio</h1> </Link>
              <p className='resourse-description'> 
              
-Explore our collection: Inspiring web and mobile apps development for modern businesses.</p>
+           Explore our collection: Inspiring web and mobile apps development for modern businesses.</p>
    </div>
-</div>
+    </div>
 
 <div className= 'item d-flex'>
-  <TfiWrite className='icon'/>
+  <img src="https://cdn-icons-png.flaticon.com/512/7466/7466047.png" alt="blog" className='icon'/>
    <div>
  <a href="/blog" className='text-decoret'>  <h1 className='resourse-sub-heading active'> Blogs</h1></a>
     <p className='resourse-description'> 
@@ -491,7 +544,7 @@ Discover how we achieved results for our Clients in web and mobile app developme
           </div> */}
            <div>
 <div className= 'item d-flex'>
-  <MdOutlineCelebration className='icon'/>
+  <img src="https://cdn-icons-png.flaticon.com/512/4142/4142242.png" alt="testinal" className='icon'/>
    <div>
  <Link to="/testimoneal" className='blog-text-heading active'>  <h1 className='resourse-sub-heading active'>Testimonials</h1> </Link>
     <p className='resourse-description'> 
@@ -504,6 +557,11 @@ Don't just take our word for it - see what our clients have to say about our top
           </div>
 
   </div>
+
+
+
+
+  
     </>
   )
  }

@@ -97,14 +97,16 @@ We ensure consistency across all brand touchpoints, including your website, soci
 
 
 const FirstCard = ({ components, handleButtonClick }) => {
-  const buttons = ['Search Engine Optimization(SEO)', ' Content Marketing', 'Pay Per Click (PPC) Marketing', 'Social Media Marketing',"Branding" ];
+  const buttons = [{Name:'Search Engine Optimization(SEO)',imgeurl:"https://img.webcodegenie.com/img/services/digital-marketing/search-engine-optimization.svg?ver=20230620061009"}, {Name:' Content Marketing',imgeurl:"https://img.webcodegenie.com/img/services/digital-marketing/content-marketing.svg?ver=20230620061009"}, {Name:'Pay Per Click (PPC) Marketing',imgeurl:"https://img.webcodegenie.com/img/services/digital-marketing/ppc-advertising.svg?ver=20230620061009"}, {Name:'Social Media Marketing',imgeurl:"https://img.webcodegenie.com/img/services/digital-marketing/social-media-marketing.svg?ver=20230620061009"},{Name:"Branding",imgeurl:"https://img.webcodegenie.com/img/services/digital-marketing/social-media-marketing.svg?ver=20230620061009" }];
 
   return (
-    <div className='constamized-components shadow w-50'>
+    <div className='digital-marketing-service shadow w-50'>
       {buttons.map((button, index) => (
-        <h6 className='p-3' key={index} onClick={() => handleButtonClick(index)}>
-        <b>  {button}</b>
-        </h6>
+        <div className='webdesing-includes-content' key={index} onClick={() => handleButtonClick(index)}>
+        <b3><img src={button.imgeurl} className='servic-include-imges m-2' alt="imge"/> </b3>
+        <b className='m-3'>   {button.Name}</b>
+        
+        </div>
       ))}
     </div>
   );

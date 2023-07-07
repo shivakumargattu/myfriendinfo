@@ -24,6 +24,10 @@
     margin: 10px;
     border-color: rgb(228, 230, 230);
     font-family: "Rub";
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 .service-incled-description{
 text-align: left;
@@ -68,4 +72,17 @@ animation: slide-up 1s forwards;
 .conatiner-webdevlop-card{
     display: flex;
     flex-direction: row;
+}
+.service-includes-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    margin-top: 0px;
+    text-align: center;
+}
+.servic-include-imges{
+    height: 60px;
+    width: 60px;
+    background-size: cover;
 }
