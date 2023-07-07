@@ -21,9 +21,9 @@ function Carouseles() {
         </div>    
         <div className="banner-imge-digital-imges">
         <img
-          className=" imges-oreder w-100 "
+          className=" imges-oreder w-100 h-100 "
           
-           src="https://i.ibb.co/MNMVbbZ/image-1.png" alt="image-1" border="0"
+           src="https://findappguru.com/wp-content/uploads/2020/10/Software-enterprise-companies-1250x768.jpg" alt="image-1" border="0"
         />
         
         </div>
@@ -52,7 +52,7 @@ Our digital marketing services make your company stand out in the fiercely compe
   <div className="banner-imge-digital-imges">
   <img
     className="  imges-oreder w-100"
-    src= "https://i.ibb.co/f2jK1Jh/image-2.png"  border="0"
+    src= "https://www.gunaatita.com/Content/new-gt/img/business-continuty-plan.jpg"  border="0"
     alt="First slide"
   />
   </div>
@@ -79,7 +79,7 @@ Our digital marketing services make your company stand out in the fiercely compe
   <div className="banner-imge-digital-imges">
   <img
      className="  imges-oreder w-100"
-    src= "https://i.ibb.co/RcKT9d9/image-3.png"
+    src= "https://insights.ricoh.co.uk/wp-content/uploads/2019/12/GettyImages-1154382592.jpg"
     alt="First slide"
   />
   </div>
