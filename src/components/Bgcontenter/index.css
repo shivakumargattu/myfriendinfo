@@ -1,0 +1,9 @@
+.bg-mai-contener{
+    height: 600px;
+    width: 100%;
+
+   /* background-image: linear-gradient( #c668f3 , #00a4ff 60%, #00e3f2, #79d4b5);*/
+    border-color: rgb(18, 18, 177);
+    border-style: solid;
+    background-color: #ffff;
+}

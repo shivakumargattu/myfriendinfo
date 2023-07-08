@@ -23,7 +23,7 @@ function Carouseles() {
         <img
           className=" imges-oreder w-100 h-100 "
           
-           src="https://findappguru.com/wp-content/uploads/2020/10/Software-enterprise-companies-1250x768.jpg" alt="image-1" border="0"
+           src="https://www.witsolution.in/images/services/PHP-Development-1.webp" alt="image-1" border="0"
         />
         
         </div>
@@ -52,7 +52,7 @@ Our digital marketing services make your company stand out in the fiercely compe
   <div className="banner-imge-digital-imges">
   <img
     className="  imges-oreder w-100"
-    src= "https://www.gunaatita.com/Content/new-gt/img/business-continuty-plan.jpg"  border="0"
+    src= "https://adselams.com/wp-content/uploads/2022/10/adsela-digital-marketing-solution-agency-apps-creation-in-ksa-2-1.png"  border="0"
     alt="First slide"
   />
   </div>
@@ -79,7 +79,7 @@ Our digital marketing services make your company stand out in the fiercely compe
   <div className="banner-imge-digital-imges">
   <img
      className="  imges-oreder w-100"
-    src= "https://insights.ricoh.co.uk/wp-content/uploads/2019/12/GettyImages-1154382592.jpg"
+    src= "https://www.cronj.com/blog/wp-content/uploads/Benefit-your-business-by-implementing-artificial-intelligence-applications-1024x683.jpg.webp"
     alt="First slide"
   />
   </div>

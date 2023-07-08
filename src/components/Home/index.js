@@ -6,15 +6,16 @@ import About from '../AboutUs'
 import OurServices from '../OurServices'
 import Process from '../Process'
 import Protfolio from '../Protfolio'
+import Bgcontent from '../Bgcontenter'
 
 const index = () => {
   return (
     <>
     <div>
         <div>
-      <Carouseles/>
+     {/* <Bgcontent/> */}
       
-      
+     <Carouseles/>
       <OurServices/>
       <About/>
       <Clients/>

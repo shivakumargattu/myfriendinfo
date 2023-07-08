@@ -5,8 +5,8 @@
     height: 80px;
     width: 100%;
 
-    background: transparent linear-gradient(  #095296 100%) 0% 0% no-repeat padding-box;
-    background-color: #095296 ;
+    background-image: linear-gradient(to right, #2e3ddd, #205fba, #0955a1);
+    
    
     color: #fff;;
     display: flex;
