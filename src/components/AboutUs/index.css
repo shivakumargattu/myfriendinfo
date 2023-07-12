@@ -42,9 +42,9 @@ font-family: 'Rubik', sans-serif;
 .cards-of-tech{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    
     
 }
 .about-content-sub{
@@ -59,4 +59,14 @@ font-family: 'Rubik', sans-serif;
 .about-imge-con{
     width: 50%;
     background-size: cover;
+}
+.about-content-section{
+    width: 500px;
+    text-align: left;
+    font-family: 'Rubik', sans-serif;
+    color: gray;
+}
+.about-imge1{
+height: 300px;
+width: 80%;
 }

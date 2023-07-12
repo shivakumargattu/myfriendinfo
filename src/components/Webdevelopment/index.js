@@ -61,10 +61,9 @@ const Webdevlopment = () => {
               <p> My Friends info solutions
               Pvt Ltd. offers result-oriented and cost-effective web development services. Our expert developers specialize in creating advanced systems that handle high volumes of transactions and data. Contact us to learn how we can help your business achieve its digital goals.
               We offer custom web development services that aim to solve your business challenges by simplifying the deployment of marketing strategies and processes. Our team's deep understanding of web application development technology, creative skills, and business knowledge has enabled us to deliver fast, measurable growth and results on the internet.</p>
-          <p>    -Using Digital Innovation to Create Beautiful Online Experiences</p>
-<p>-Innovative Business Practises to Promote Success</p>
-
-<p>-Developing Cutting-Edge Solutions to Elevate Brands and Turn Visions into Digital Reality</p>
+             <p>-Using Digital Innovation to Create Beautiful Online Experiences</p>
+              <p>-Innovative Business Practises to Promote Success</p>
+             <p>-Developing Cutting-Edge Solutions to Elevate Brands and Turn Visions into Digital Reality</p>
 
        </div>
        
@@ -95,7 +94,7 @@ const Webdevlopment = () => {
 <div className='content-web'>
   <p>Professional web development ensures that your online presence is a potent tool for growth in addition to producing an aesthetically pleasing website. In order to create a website that perfectly reflects your brand identity, developers must first understand your business objectives and target market. They build a website that not only attracts attention but also encourages meaningful interactions by paying close attention to detail and taking a user-centric approach.
 
-<br/>Successful online businesses are built on a foundation of user-friendly websites. The user experience is the main focus of expert developers, who make interactions and navigation simple. Your website adapts seamlessly to various devices and screen sizes by using responsive design techniques. Your customers will have a consistent and interesting experience whether they access your site on a desktop, tablet, or mobile phone. This improves</p>
+Successful online businesses are built on a foundation of user-friendly websites. The user experience is the main focus of expert developers, who make interactions and navigation simple. Your website adapts seamlessly to various devices and screen sizes by using responsive design techniques. Your customers will have a consistent and interesting experience whether they access your site on a desktop, tablet, or mobile phone. This improves</p>
 <p>It's crucial to stay on top of technological advancements because the digital landscape is constantly changing. Professional web developers keep up with the most recent tools, technologies, and trends and incorporate them into the creation of your website. They offer visitors an engaging and modern experience by embracing emerging technologies.
 </p>
 </div>

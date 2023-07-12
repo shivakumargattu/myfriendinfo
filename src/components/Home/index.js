@@ -16,9 +16,11 @@ const index = () => {
      {/* <Bgcontent/> */}
       
      <Carouseles/>
+     <Clients/>
+     <About/>
       <OurServices/>
-      <About/>
-      <Clients/>
+      
+      
       <Process/>
       <Protfolio/>
         </div>
